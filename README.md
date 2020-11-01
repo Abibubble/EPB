@@ -61,11 +61,41 @@ I have also included the user navigation map of how I would expect a user to nav
 
 ![User navigation map](/images/navmap.png)
 
+<h3>Languages, Framework and Tech used</h3>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+</ul>
+
+<h3>Special credit</h3>
+
+
+
+
+
+
+Make sure the file always includes the following elements:
+
+Titles and internal titles
+Introduction - the project's aim
+Technologies
+Launch
+
+Consider also using additional elements such as: 
+
+Table of contents
+Illustrations
+Scope of functionalities 
+Examples of use
+Project status 
+Sources
+Other information
+
 
 
 build status?
-
-Framework + tech used
 
 Features
 
@@ -73,11 +103,12 @@ API reference??????????????
 
 Tests
 
+Credit
 
-HAVE LOTS OF IMAGES
 
-Title (A Title Image too if possible.)
-Description(Describe by words and images alike)
+
+
+
 Demo(Images, Video links, Live Demo links)
 Technologies Used
 Special Gotchas of your projects (Problems you faced, unique elements of your project)
