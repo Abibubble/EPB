@@ -1,6 +1,6 @@
 <h1 align="center">Escape Pool Bar Website</h1>
 
-<img src="/images/logo.png" height="300px" width="600px" alt="Escape Pool Bar Logo">
+<img src="/images/logo.png" alt="Escape Pool Bar Logo" align="center">
 
 [Here is a link to the final project](https://link)
 
