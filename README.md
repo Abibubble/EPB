@@ -61,6 +61,14 @@ I have also included the user navigation map of how I would expect a user to nav
 
 ![User navigation map](/images/navmap.png)
 
+<h3>Features</h3>
+<ul>
+<li>Text information</li>
+<li>Images</li>
+<li>PDF download</li>
+<li>Embedded Google Maps box</li>
+</ul>
+
 <h3>Languages, Framework and Tech used</h3>
 
 <ul>
@@ -69,11 +77,16 @@ I have also included the user navigation map of how I would expect a user to nav
 <li>Bootstrap</li>
 </ul>
 
-<h3>Special credit</h3>
+<h3>Special thanks to...</h3>
+<ul>
+<li>Bootstrap, Code Institute, and freeCodeCamp for some styling used, and for teaching me how to create this.</li>
+<li>The team at Escape Pool Bar, for giving me the opportunity to create their website.</li>
+<li>Google, for the embed code for the map</li>
+</ul>
 
+<h3>Testing</h3>
 
-
-
+<h3>Problems faced</h3>
 
 
 Make sure the file always includes the following elements:
@@ -94,22 +107,5 @@ Sources
 Other information
 
 
-
 build status?
-
-Features
-
 API reference??????????????
-
-Tests
-
-Credit
-
-
-
-
-
-Demo(Images, Video links, Live Demo links)
-Technologies Used
-Special Gotchas of your projects (Problems you faced, unique elements of your project)
-Technical Description of your project like- Installation, Setup, How to contribute.
