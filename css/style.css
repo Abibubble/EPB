@@ -1,9 +1,15 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 .block-divider {
     width: 200px;
+}
+
+.gallery {
+    background-color: #868686;
 }
 
 /*Navbar*/
@@ -105,7 +111,7 @@ body {
 
 .hero .lead {
     margin: 25px 0;
-    color: #a7a7a7;
+    color: #bebbbb;
 }
 
 /* Page content */
@@ -123,6 +129,27 @@ body {
 
 .info-header h2 {
     margin-top: 0;
+}
+
+.socials {
+    text-decoration: none;
+    color: #bebbbb;
+}
+
+.gallery-header {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.gallery-img {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+.gallery-img img{
+    width: 100%;
 }
 
 /* Footer */
