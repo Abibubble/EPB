@@ -43,12 +43,9 @@ body {
 
 .navbar-brand img {
     height: 75px;
-    width: 200px;
 }
 
 .nav-item {
-    margin-left: 25px;
-    margin-right: 25px;
     font-size: 25px;
 }
 
@@ -59,11 +56,21 @@ body {
 .navbar li {
     height: 75px;
     width: 332px;
-    border-left: solid 3px grey;
-    border-right: solid 3px grey;
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+.col {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-col {
+    border-left: solid 3px grey;
+    border-right: solid 3px grey;
 }
 
 .active {
@@ -106,12 +113,21 @@ body {
 .hero-header {
     color: #ffffff;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .hero .lead {
     margin: 25px 0;
     color: #bebbbb;
+}
+
+.scrolling {
+    position: absolute;
+    top: 100px;
+    display: block;
+    color: #000;
+    background-color: #ffff00;
+    width: 100vw;
 }
 
 /* Page content */
