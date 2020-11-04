@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -43,7 +50,7 @@ body {
 
 .navbar-brand img {
     height: 100px;
-    width: 100%;
+    width: 300px;
 }
 
 .nav-item {
@@ -186,8 +193,9 @@ body {
 
 footer {
     background-color: gray;
-    height: 100%;
     color: white;
+    display: table-row;
+    height: 0;
 }
 
 .contact a {
@@ -213,4 +221,34 @@ footer {
     height: 75px;
     background-color: inherit;
     text-align: center;
+}
+
+/* Responsive design */
+
+
+@media only screen and (min-width: 768px) {
+    .intro {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .intro {
+        width: 600px;
+    }
+    #navbarNavDropdown {
+        background-color: #000;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .intro {
+        width: 100%;
+    }
+    .hidden {
+        display: none;
+    }
+    #navbarNavDropdown {
+        background-color: #000;
+    }
 }
