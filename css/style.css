@@ -66,13 +66,6 @@ body {
     color: rgb(27, 124, 27);
 }
 
-.navbar li {
-    height: 75px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
 .align-items-center {
     width: 100%;
     text-align: center;
@@ -116,10 +109,15 @@ body {
     margin: 0;
 }
 
+#navbarNavDropdown {
+    z-index: 2;
+}
+
 /* Hero image and text overlay */
 
 .hero-container {
     height: 100vh;
+    width: 100vw;
     background: url(../images/#) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -263,5 +261,15 @@ footer {
     }
     #navbarNavDropdown {
         background-color: #000;
+    }
+    .index-header {
+        margin-top: 150px;
+    }
+    .member-header {
+        margin-top: 150px;
+    }
+    iframe {
+        width: 90vw;
+        height: 300px;
     }
 }
