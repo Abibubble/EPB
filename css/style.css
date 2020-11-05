@@ -247,9 +247,6 @@ footer {
     .intro {
         width: 600px;
     }
-    #navbarNavDropdown {
-        background-color: #000;
-    }
 }
 
 @media only screen and (max-width: 576px) {
