@@ -9,6 +9,8 @@ html, body {
 
 body {
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .block-divider {
@@ -51,6 +53,9 @@ body {
 .navbar-brand img {
     height: 100px;
     width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .nav-item {
@@ -71,6 +76,10 @@ body {
 .align-items-center {
     width: 100%;
     text-align: center;
+}
+
+.justify {
+    justify-items: center;
 }
 
 .col {
@@ -101,6 +110,10 @@ body {
     width: 100%;
     z-index: 1;
     font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 4px;
+    margin: 0;
 }
 
 /* Hero image and text overlay */
