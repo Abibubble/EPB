@@ -39,27 +39,27 @@ These were then removed from our planning before I designed the wireframes.
 
 <h4>Homepage Wireframe</h4>
 
-![Homepage wireframe](/images/home.png)
+![Homepage wireframe](/images/wireframes/home.png)
 
 <h4>Membership Wireframe</h4>
 
-![Membership wireframe](/images/membership.png)
+![Membership wireframe](/images/wireframes/membership.png)
 
 <h4>How It Works Wireframe</h4>
 
-![How It Works wireframe](/images/about.png)
+![How It Works wireframe](/images/wireframes/about.png)
 
 <h4>Gallery Wireframe</h4>
 
-![Gallery wireframe](/images/gallery.png)
+![Gallery wireframe](/images/wireframes/gallery.png)
 
 <h4>Contact Us Wireframe</h4>
 
-![Contact Us wireframe](/images/contact.png)
+![Contact Us wireframe](/images/wireframes/contact.png)
 
 I have also included the user navigation map of how I would expect a user to navigate the website.
 
-![User navigation map](/images/navmap.png)
+![User navigation map](/images/wireframes/navmap.png)
 
 <h3>Features</h3>
 <ul>
