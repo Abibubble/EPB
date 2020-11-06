@@ -44,10 +44,7 @@ body {
 .navbar-brand {
     font-weight: bold;
     margin-right: 0;
-}
-
-.nav-link {
-    color: white;
+    float: left;
 }
 
 .navbar-brand img {
@@ -59,7 +56,8 @@ body {
 }
 
 .nav-item {
-    font-size: 25px;
+    font-size: 22px;
+    color: white;
 }
 
 .nav-item a:hover {
@@ -86,6 +84,11 @@ body {
 }
 
 .active {
+    text-decoration: underline;
+}
+
+.active:hover {
+    color: rgb(27, 124, 27);
     text-decoration: underline;
 }
 
@@ -232,15 +235,21 @@ footer {
 /* Responsive design */
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .intro {
         width: 800px;
     }
+    .smaller-screen {
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 769px) {
     .intro {
         width: 600px;
+    }
+    .smaller-screen {
+        display: none;
     }
 }
 
@@ -260,8 +269,38 @@ footer {
     .member-header {
         margin-top: 150px;
     }
+    .about-header {
+        margin-top: 150px;
+    }
     iframe {
         width: 90vw;
         height: 300px;
+    }
+    .navbar-brand img {
+        width: 60%;
+    }
+    .smaller-screen {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    p {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 27px;
+    }
+    .index-header {
+        margin-top: 325px;
+    }
+    .member-header {
+        margin-top: 200px;
+    }
+    .about-header {
+        margin-top: 200px;
+    }
+    .optional {
+        display: hidden;
     }
 }
