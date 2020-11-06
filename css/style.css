@@ -104,7 +104,6 @@ body {
     top: 100px;
     left: 0;
     width: 100%;
-    z-index: 1;
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
@@ -113,14 +112,14 @@ body {
 }
 
 #navbarNavDropdown {
-    z-index: 2;
+    z-index: 3;
 }
 
 /* Hero image and text overlay */
 
 .hero-container {
-    height: 100vh;
-    width: 100vw;
+    height: 95vh;
+    width: 100%;
     background: url(../images/gallery/8gameus.JPG) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -130,6 +129,9 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .overlay {
@@ -148,12 +150,15 @@ body {
 .hero-header {
     color: #ffffff;
     font-weight: bold;
+    font-size: 70px;
     margin-bottom: 25px;
+    margin: 0 auto;
 }
 
 .hero .lead {
-    margin: 25px 0;
+    margin: 0 auto;
     color: #bebbbb;
+    font-size: 25px;
 }
 
 .scrolling {
@@ -196,6 +201,10 @@ body {
     width: 80vw;
     height: 75vh;
     margin: 0 auto;
+}
+
+.container-wrapper {
+    background-color: #bebbbb;
 }
 
 /* Footer */
@@ -251,6 +260,16 @@ footer {
     .smaller-screen {
         display: none;
     }
+    #navbarNavDropdown {
+        background-color: grey;
+        z-index: 3;
+        position: fixed;
+        right: 0;
+        top: 100px;
+    }
+    .nav-item {
+        white-space: nowrap;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -261,7 +280,11 @@ footer {
         display: none;
     }
     #navbarNavDropdown {
-        background-color: #000;
+        background-color: grey;
+        z-index: 3;
+        position: fixed;
+        right: 0;
+        top: 100px;
     }
     .index-header {
         margin-top: 150px;
@@ -281,6 +304,9 @@ footer {
     }
     .smaller-screen {
         display: none;
+    }
+    .nav-item {
+        white-space: nowrap;
     }
 }
 
@@ -302,5 +328,15 @@ footer {
     }
     .optional {
         display: hidden;
+    }
+    #navbarNavDropdown {
+        background-color: grey;
+        z-index: 3;
+        position: fixed;
+        right: 0;
+        top: 100px;
+    }
+    .nav-item {
+        white-space: nowrap;
     }
 }
