@@ -6,7 +6,7 @@
 
 This is the website for Escape Pool Bar, designed to be responsive and accessible on a range of devices, making it easy to access any information that their customers could need.
 
-![Final project image](/images/project.jpg)
+![Final project image](/images/wireframes/project.jpg)
 
 <h2>Planning</h2>
 
@@ -32,7 +32,7 @@ The main information that customers ask for are as follows:
 
 <h3>Scope</h3>
 
-We discussed the features that they wanted included in their website. They requested text information, images, a PDF download for the membership form, and an embedded Google maps box.
+We discussed the features that they wanted included in their website. They requested text information, a gallery of images, a PDF download for the membership form, and an embedded Google maps box.
 
 Those features fit well with the time and ability I have, and we agreed that a few bits of information were not necessary, including the history of the building, the drinks deals, and most of the student discounts.
 These were then removed from our planning before I designed the wireframes.
@@ -82,12 +82,14 @@ I have also included the user navigation map of how I would expect a user to nav
 <li>Bootstrap, Code Institute, and freeCodeCamp for some styling used, and for teaching me how to create this.</li>
 <li>The team at Escape Pool Bar, for giving me the opportunity to create their website.</li>
 <li>Google, for the embed code for the map</li>
+<li>Eve Crabb and Tom Crabb, for their support and help through my learning</li>
 </ul>
 
 <h3>Testing</h3>
 
 <h3>Problems faced</h3>
-
+The navbar
+The responsivity
 
 Make sure the file always includes the following elements:
 
