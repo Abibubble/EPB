@@ -7,10 +7,16 @@ html, body {
     display: table;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
+    padding-bottom: 75px;
+    position: relative;
 }
 
 .block-divider {
@@ -150,7 +156,6 @@ body {
 .hero-header {
     color: #ffffff;
     font-weight: bold;
-    font-size: 70px;
     margin-bottom: 25px;
     margin: 0 auto;
 }
@@ -158,7 +163,6 @@ body {
 .hero .lead {
     margin: 0 auto;
     color: #bebbbb;
-    font-size: 25px;
 }
 
 .scrolling {
@@ -212,8 +216,11 @@ body {
 footer {
     background-color: gray;
     color: white;
-    display: table-row;
-    height: 0;
+    margin-top: auto;
+    width: 100%;
+    height: 75px;
+    position:absolute;
+    bottom:0;
 }
 
 .contact a {
@@ -251,6 +258,12 @@ footer {
     .smaller-screen {
         display: none;
     }
+    .hero-header {
+        font-size: 70px;
+    }
+    .hero .lead {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
@@ -269,6 +282,12 @@ footer {
     }
     .nav-item {
         white-space: nowrap;
+    }
+    .hero .lead {
+        font-size: 20px;
+    }
+    .contact p, .copyright p {
+        font-size: 15px;
     }
 }
 
@@ -308,6 +327,12 @@ footer {
     .nav-item {
         white-space: nowrap;
     }
+    .hero .lead {
+        font-size: 15px;
+    }
+    .contact p, .copyright p {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 340px) {
@@ -318,13 +343,13 @@ footer {
         font-size: 27px;
     }
     .index-header {
-        margin-top: 325px;
+        margin-top: 100px;
     }
     .member-header {
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .about-header {
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .optional {
         display: hidden;
@@ -338,5 +363,11 @@ footer {
     }
     .nav-item {
         white-space: nowrap;
+    }
+    .hero .lead {
+        font-size: 15px;
+    }
+    .contact p, .copyright p {
+        font-size: 10px;
     }
 }
