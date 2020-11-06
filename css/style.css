@@ -118,7 +118,7 @@ body {
 .hero-container {
     height: 100vh;
     width: 100vw;
-    background: url(../images/#) no-repeat bottom right fixed; 
+    background: url(../images/gallery/8gameus.JPG) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -185,19 +185,14 @@ body {
 }
 
 .gallery-header {
-    margin-top: 100px;
+    margin-top: 125px;
     text-align: center;
 }
 
-.gallery-img {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
-}
-
-.gallery-img img{
-    width: 100%;
+.carousel, .carousel-item {
+    width: 80vw;
+    height: 75vh;
+    margin: 0 auto;
 }
 
 /* Footer */
