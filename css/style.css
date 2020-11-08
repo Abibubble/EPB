@@ -215,8 +215,17 @@ body {
     background-color: #bebbbb;
 }
 
-.right {
-    float: right;
+form {
+    text-align: left;
+    margin-left: 100px;
+}
+
+label {
+    color: #bebbbb;
+}
+
+datalist {
+    display: none;
 }
 
 /* Footer */
