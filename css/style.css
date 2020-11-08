@@ -89,6 +89,10 @@ body {
     border-right: solid 3px grey;
 }
 
+#first-nav {
+    border-left: solid 3px grey;
+}
+
 .active {
     text-decoration: underline;
 }
@@ -202,13 +206,17 @@ body {
 }
 
 .carousel, .carousel-item {
-    width: 80vw;
-    height: 75vh;
+    width: 70vw;
+    height: 65vh;
     margin: 0 auto;
 }
 
 .container-wrapper {
     background-color: #bebbbb;
+}
+
+.right {
+    float: right;
 }
 
 /* Footer */
