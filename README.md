@@ -92,6 +92,7 @@ I have also included the user navigation map of how I would expect a user to nav
 Through the creation of this project, I've faced several challenges.
 Firstly, the navbar caused quite a few issues, as 
 The responsivity
+Deployment
 
 
 
