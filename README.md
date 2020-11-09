@@ -67,6 +67,7 @@ I have also included the user navigation map of how I would expect a user to nav
 <li>Images</li>
 <li>PDF download</li>
 <li>Embedded Google Maps box</li>
+<li>Images carousel</li>
 </ul>
 
 <h3>Languages, Framework and Tech used</h3>
@@ -88,26 +89,16 @@ I have also included the user navigation map of how I would expect a user to nav
 <h3>Testing</h3>
 
 <h3>Problems faced</h3>
-The navbar
+Through the creation of this project, I've faced several challenges.
+Firstly, the navbar caused quite a few issues, as 
 The responsivity
 
-Make sure the file always includes the following elements:
 
-Titles and internal titles
-Introduction - the project's aim
-Technologies
+
 Launch
-
-Consider also using additional elements such as: 
-
 Table of contents
-Illustrations
-Scope of functionalities 
-Examples of use
 Project status 
 Sources
 Other information
-
-
 build status?
 API reference??????????????
