@@ -316,6 +316,15 @@ footer {
     .contact p, .copyright p {
         font-size: 15px;
     }
+    .nav-col {
+        border-right: 0;
+    }
+    #first-nav {
+        border-left: 0;
+    }
+    form {
+        margin-left: 5px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -342,7 +351,7 @@ footer {
         margin-top: 100px;
     }
     .contact-header {
-        margin-top: 100px;
+        margin-top: 125px;
     }
     iframe {
         width: 90vw;
@@ -362,6 +371,15 @@ footer {
     }
     .contact p, .copyright p {
         font-size: 10px;
+    }
+    .nav-col {
+        border-right: 0;
+    }
+    #first-nav {
+        border-left: 0;
+    }
+    form {
+        margin-left: 5px;
     }
 }
 
@@ -399,5 +417,14 @@ footer {
     }
     .contact p, .copyright p {
         font-size: 10px;
+    }
+    .nav-col {
+        border-right: 0;
+    }
+    #first-nav {
+        border-left: 0;
+    }
+    form {
+        margin-left: 5px;
     }
 }
