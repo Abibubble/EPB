@@ -30,17 +30,22 @@ The main information that customers ask for are as follows:
 <h2>User Experience (UX)</h2>
 <h3>User stories</h3>
 <h4>First Time Visitor Goals</h4>
-I want to easily learn more about the bar.
-I want to be able to easily navigate throughout the site to find information.
-I want to locate their social media links to see their social media prescence.
+<ul>
+<li>I want to easily learn more about the bar.</li>
+<li>I want to be able to easily navigate throughout the site to find information.</li>
+<li>I want to locate their social media links to see their social media prescence.</li>
+</ul>
 
 <h4>Returning Visitor Goals</h4>
-I want to find current information about Covid-19.
-I want to find the best way to get in contact with the organisation with any questions I may have.
+<ul>
+<li>I want to find current information about Covid-19.</li>
+<li>I want to find the best way to get in contact with the organisation with any questions I may have.</li>
+</ul>
 
 <h4>Frequent User Goals</h4>
-I want to find current information about Covid-19.
-I want to submit a booking request.
+<ul>
+<li>I want to submit a booking request.</li>
+</ul>
 
 <h2>Design</h2>
 <h3>Colour Scheme</h3>
@@ -89,8 +94,10 @@ The large background hero image is designed to be striking and catch the user's 
 
 <h2>Technologies Used</h2>
 <h3>Languages Used</h3>
-HTML5
-CSS3
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+</ul>
 
 <h3>Frameworks, Libraries & Programs Used</h3>
 <h4>Bootstrap 4.5.2:</h4>
@@ -105,7 +112,7 @@ Google maps embed code was used to add the map.
 Font Awesome was used on all pages tto add social media icons and the copyright icon.
 <h4>jQuery:</h4>
 jQuery came with Bootstrap which makes the navbar responsive.
-<h4>Git</h4>
+<h4>Git:</h4>
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 <h4>GitHub:</h4>
 GitHub is used to store the projects code after being pushed from Git.
@@ -114,37 +121,39 @@ Balsamiq was used to create the wireframes during the design process.
 
 <h2>Testing</h2>
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-W3C Markup Validator - Results <--LINKS-->
-W3C CSS Validator - Results <--LINKS-->
+<ul>
+<li>W3C Markup Validator - Results <--LINKS--></li>
+<li>W3C CSS Validator - Results <--LINKS--></li>
+</ul>
 
 <h3>Testing User Stories from User Experience (UX) Section</h3> <--UPDATE THIS-->
 <h4>First Time Visitor Goals</h4>
-<em>I want to easily learn more about the bar.</em>
-Upon entering the site, users are greeted with a navigation bar that is clean and easy to read to take them to the information that they need.
-Underneath this, there is a hero image of a game of pool, making it obvious at first glance what the website is for.
-The user then has two options - click in the navbar to navigate to another page, or scroll down.
+<h5>I want to easily learn more about the bar.</h5>
+Upon entering the site, users are greeted with a navigation bar that is clean and easy to read to take them to the information that they need.<br>
+Underneath this, there is a hero image of a game of pool, making it obvious at first glance what the website is for.<br>
+The user then has two options - click in the navbar to navigate to another page, or scroll down.<br>
 Scrolling down leads to more information about the bar.
 
-<em>I want to be able to easily navigate throughout the site to find information.</em>
-At the top of each page there is a clean and easy to read navigation bar, with each link describing what the page they will end up at clearly.
+<h5>I want to be able to easily navigate throughout the site to find information.</h5>
+At the top of each page there is a clean and easy to read navigation bar, with each link describing what the page they will end up at clearly.<br>
 The logo in the top left of each page also links to the homepage, following standard convention.
 
-<em>I want to locate their social media links to see their social media prescence.</em>
-In the footer of each page, there is a link to their Facebook site.
-In the Contact Us page, there is a link to their Twitter page, and two links to their Facebook site (one to the Facebook in general, and one to prompt to book a table).
+<h5>I want to locate their social media links to see their social media prescence.</h5>
+In the footer of each page, there is a link to their Facebook site.<br>
+In the Contact Us page, there is a link to their Twitter page, and two links to their Facebook site (one to the Facebook in general, and one to prompt to book a table).<br>
 Any links that they click to an external site will open up in a new tab to ensure the user can easily get back to the website.
 
 <h4>Returning Visitor Goals</h4>
-<em>I want to find current information about Covid-19.</em>
+<h5>I want to find current information about Covid-19.</h5>
 On the homepage, there is a bright yellow scrolling banner that is eye-catching and bold, directly under the navbar that explains the current situation with Covid-19.
 
-<em>I want to find the best way to get in contact with the bar with any questions I may have.</em>
-The navigation bar has a clear link called 'Contact Us', where all the contact details are visible.
+<h5>I want to find the best way to get in contact with the bar with any questions I may have.</h5>
+The navigation bar has a clear link called 'Contact Us', where all the contact details are visible.<br>
 The user can also scroll to the bottom of any page on the site to locate contact details and a Facebook link in the footer.
 
 <h4>Frequent User Goals</h4>
-<em>I want to submit a booking request</em>
-Scrolling down on the Contact Us page gives a form on tablet and desktop that cal be filled in to submit a table booking request.
+<h5>I want to submit a booking request</h5>
+Scrolling down on the Contact Us page gives a form on tablet and desktop that cal be filled in to submit a table booking request.<br>
 There is also an alternative link to their Facebook page, where a table booking can also be submitted.
 
 <h3>Further Testing</h3>
