@@ -84,6 +84,7 @@ I have also included the user navigation map of how I would expect a user to nav
 <li>The team at Escape Pool Bar, for giving me the opportunity to create their website.</li>
 <li>Google, for the embed code for the map</li>
 <li>Eve Crabb and Tom Crabb, for their support and help through my learning</li>
+<li>JimLynx_lead on Slack, for his continuous support and guidance</li>
 </ul>
 
 <h3>Testing</h3>
