@@ -30,22 +30,22 @@ The main information that customers ask for are as follows:
 
 <h2>User Experience (UX)</h2>
 <h3>User stories</h3>
-First Time Visitor Goals
+<h4>First Time Visitor Goals</h4>
 I want to easily learn more about the company.
 I want to be able to easily navigate throughout the site to find information.
 I want to locate their social media links to see their social media prescence.
 
-<h3>Returning Visitor Goals</h3>
+<h4>Returning Visitor Goals</h4>
 I want to find current information about Covid-19.
 I want to find the best way to get in contact with the organisation with any questions I may have.
-I want to find the best way to submit a table booking request.
 
-<h3>Frequent User Goals</h3>
+<h4>Frequent User Goals</h4>
 I want to find current information about Covid-19.
+I want to submit a booking request.
 
 <h2>Design</h2>
 <h3>Colour Scheme</h3>
-The main colours used are white and green, to correlate with English Pool colours (green cloth, white cue ball)
+The main colours used are white and green, to correlate with English Pool colours (green cloth, white cue ball).
 
 <h3>Typography</h3>
 The Poppins font is the main font used throughout the whole website with Sans Serif as the fallback font in case the Poppins font isn't being imported into the site correctly.
@@ -119,18 +119,28 @@ W3C Markup Validator - Results <--LINKS-->
 W3C CSS Validator - Results <--LINKS-->
 
 <h3>Testing User Stories from User Experience (UX) Section</h3> <--UPDATE THIS-->
-First Time Visitor Goals
-As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+<h4>First Time Visitor Goals</h4>
+<em>I want to easily learn more about the company.</em>
+Upon entering the site, users are greeted with a navigation bar that is clean and easy to read to take them to the information that they need.
+Underneath this, there is a hero image of a game of pool, making it obvious at first glance what the website is for.
+The user then has two options - click in the navbar to navigate to another page, or scroll down.
+Scrolling down leads to more information about the company.
 
-Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-The main points are made immediately with the hero image
-The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+<em>I want to be able to easily navigate throughout the site to find information.</em>
+At the top of each page there is a clean and easy to read navigation bar, with each link describing what the page they will end up at clearly.
+The logo in the top left of each page also links to the homepage, following standard convention.
 
-The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+<em>I want to locate their social media links to see their social media prescence.</em>
+In the footer of each page, 
+
+<h4>Returning Visitor Goals</h4>
+I want to find current information about Covid-19.
+I want to find the best way to get in contact with the organisation with any questions I may have.
+
+<h4>Frequent User Goals</h4>
+I want to find current information about Covid-19.
+I want to submit a booking request
+
 
 Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
 The user can also scroll to the bottom of any page on the site to locate social media links in the footer.

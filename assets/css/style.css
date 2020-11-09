@@ -351,7 +351,7 @@ footer {
         margin-top: 100px;
     }
     .contact-header {
-        margin-top: 125px;
+        margin-top: 150px;
     }
     iframe {
         width: 90vw;
@@ -379,7 +379,7 @@ footer {
         border-left: 0;
     }
     form {
-        margin-left: 5px;
+        display: none;
     }
 }
 
@@ -397,6 +397,9 @@ footer {
         margin-top: 100px;
     }
     .about-header {
+        margin-top: 100px;
+    }
+    .contact-header {
         margin-top: 100px;
     }
     .optional {
@@ -425,6 +428,6 @@ footer {
         border-left: 0;
     }
     form {
-        margin-left: 5px;
+        display: none;
     }
 }
