@@ -23,7 +23,6 @@ The main information that customers ask for are as follows:
 <li>Deals and discounts</li>
 <li>Parking</li>
 <li>Opening hours</li>
-<li>History of the building</li>
 <li>Contact information</li>
 <li>How to book a table</li>
 </ul>
@@ -31,7 +30,7 @@ The main information that customers ask for are as follows:
 <h2>User Experience (UX)</h2>
 <h3>User stories</h3>
 <h4>First Time Visitor Goals</h4>
-I want to easily learn more about the company.
+I want to easily learn more about the bar.
 I want to be able to easily navigate throughout the site to find information.
 I want to locate their social media links to see their social media prescence.
 
@@ -120,22 +119,30 @@ W3C CSS Validator - Results <--LINKS-->
 
 <h3>Testing User Stories from User Experience (UX) Section</h3> <--UPDATE THIS-->
 <h4>First Time Visitor Goals</h4>
-<em>I want to easily learn more about the company.</em>
+<em>I want to easily learn more about the bar.</em>
 Upon entering the site, users are greeted with a navigation bar that is clean and easy to read to take them to the information that they need.
 Underneath this, there is a hero image of a game of pool, making it obvious at first glance what the website is for.
 The user then has two options - click in the navbar to navigate to another page, or scroll down.
-Scrolling down leads to more information about the company.
+Scrolling down leads to more information about the bar.
 
 <em>I want to be able to easily navigate throughout the site to find information.</em>
 At the top of each page there is a clean and easy to read navigation bar, with each link describing what the page they will end up at clearly.
 The logo in the top left of each page also links to the homepage, following standard convention.
 
 <em>I want to locate their social media links to see their social media prescence.</em>
-In the footer of each page, 
+In the footer of each page, there is a link to their Facebook site.
+In the Contact page, there is a link to their Twitter page, and two links to their Facebook site (one to the Facebook in general, and one to prompt to book a table).
 
 <h4>Returning Visitor Goals</h4>
-I want to find current information about Covid-19.
-I want to find the best way to get in contact with the organisation with any questions I may have.
+<em>I want to find current information about Covid-19.</em>
+On the homepage, there is a bright yellow scrolling banner that is eye-catching and bold, directly under the navbar that explains the current situation with Covid-19.
+
+<em>I want to find the best way to get in contact with the bar with any questions I may have.</em>
+
+
+
+The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 <h4>Frequent User Goals</h4>
 I want to find current information about Covid-19.
@@ -143,14 +150,7 @@ I want to submit a booking request
 
 
 Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-Returning Visitor Goals
-As a Returning Visitor, I want to find the new programming challenges or hackathons.
 
-These are clearly shown in the banner message.
-They will be directed to a page with another hero image and call to action.
-As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
 The navigation bar clearly highlights the "Contact Us" Page.
 Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
