@@ -131,49 +131,21 @@ The logo in the top left of each page also links to the homepage, following stan
 
 <em>I want to locate their social media links to see their social media prescence.</em>
 In the footer of each page, there is a link to their Facebook site.
-In the Contact page, there is a link to their Twitter page, and two links to their Facebook site (one to the Facebook in general, and one to prompt to book a table).
+In the Contact Us page, there is a link to their Twitter page, and two links to their Facebook site (one to the Facebook in general, and one to prompt to book a table).
+Any links that they click to an external site will open up in a new tab to ensure the user can easily get back to the website.
 
 <h4>Returning Visitor Goals</h4>
 <em>I want to find current information about Covid-19.</em>
 On the homepage, there is a bright yellow scrolling banner that is eye-catching and bold, directly under the navbar that explains the current situation with Covid-19.
 
 <em>I want to find the best way to get in contact with the bar with any questions I may have.</em>
-
-
-
-The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+The navigation bar has a clear link called 'Contact Us', where all the contact details are visible.
+The user can also scroll to the bottom of any page on the site to locate contact details and a Facebook link in the footer.
 
 <h4>Frequent User Goals</h4>
-I want to find current information about Covid-19.
-I want to submit a booking request
-
-
-Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-
-
-The navigation bar clearly highlights the "Contact Us" Page.
-Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-
-The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-Frequent User Goals
-As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-The user would already be comfortable with the website layout and can easily click the banner message.
-As a Frequent User, I want to check to see if there are any new blog posts.
-
-The user would already be comfortable with the website layout and can easily click the blog link
-As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-
-At the bottom of every page their is a footer which content is consistent throughout all pages.
-To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+<em>I want to submit a booking request</em>
+Scrolling down on the Contact Us page gives a form on tablet and desktop that cal be filled in to submit a table booking request.
+There is also an alternative link to their Facebook page, where a table booking can also be submitted.
 
 <h3>Further Testing</h3>
 The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -201,13 +173,3 @@ All photos were taken by Conor Nye, Bar Manager at Escape Pool Bar.
 <li>Eve Crabb and Tom Crabb, for their support and help through my learning.</li>
 <li>JimLynx_lead on Slack, for his continuous support and guidance.</li>
 <li>The team at Code Institute, for teaching me the necessary skills to create this site.</li>
-
-
-
-Launch
-Table of contents
-Project status 
-Sources
-Other information
-build status?
-API reference??????????????
