@@ -262,12 +262,21 @@ form {
     margin-left: 100px;
 }
 
+.form {
+    color: rgb(238, 238, 238);
+}
+
 label {
     color: #bebbbb;
 }
 
 datalist {
     display: none;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
 }
 
 /* Footer */
@@ -310,6 +319,25 @@ footer {
 
 /* Responsive design */
 
+@media only screen and (max-width: 1200px) {
+    #navbarNavDropdown {
+        background-color: #000;
+        z-index: 3;
+        position: fixed;
+        right: 0;
+        top: 100px;
+    }
+    .nav-col {
+        border-right: 0;
+    }
+    #first-nav {
+        border-left: 0;
+    }
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+}
 
 @media only screen and (min-width: 769px) {
     .intro {
@@ -334,7 +362,7 @@ footer {
         display: none;
     }
     #navbarNavDropdown {
-        background-color: grey;
+        background-color: #000;
         z-index: 3;
         position: fixed;
         right: 0;
@@ -368,7 +396,7 @@ footer {
         display: none;
     }
     #navbarNavDropdown {
-        background-color: grey;
+        background-color: #000;
         z-index: 3;
         position: fixed;
         right: 0;
@@ -442,7 +470,7 @@ footer {
         display: hidden;
     }
     #navbarNavDropdown {
-        background-color: grey;
+        background-color: #000;
         z-index: 3;
         position: fixed;
         right: 0;
