@@ -1,5 +1,4 @@
 COMMENT MY CODE (WHAT THINGS DO AND WHY)
-PUT IMAGES ON IMGUR THEN LINK TO REDUCE LOAD TIME
 EXPLAIN WHY I MADE CERTAIN CHOICES - I.E. RESPONSIVE, WHY I MOVED SOME THINGS, WHY I HID SOME THINGS, ETC.
 
 <h1 align="center">Escape Pool Bar Website</h1>
@@ -17,7 +16,7 @@ This is the website for Escape Pool Bar, designed to be responsive and accessibl
 In the initial planning meeting with the bar manager of Escape Pool Bar, he requested a website that would easily provide information to customers.
 The staff were spending a lot of time at the bar explaining the details of how their pool bar works to customers, which was wasting time that the staff could be doing other duties.
 
-Their target demnographic is mainly male with an age range of 16 - 65 years old. 
+Their target demographic is mainly male with an age range of 16 - 65 years old. 
 
 The main information that customers ask for are as follows:
 * Pricing (table rates, guest fees)
@@ -59,33 +58,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 The large background hero image is designed to be striking and catch the user's attention, making it clear at first glance what the company does. It has a modern aesthetic, and directly correlates to the company.
 
 ### Wireframes
-I NEED TABLET WIREFRAMES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-PDF WIREFRAMES?
-PUT AS LINKS, NOT AS IMAGES
-
-#### Homepage Wireframe
-
-[Homepage wireframe](assets/images/wireframes/home.png)
-
-#### Membership Wireframe
-
-[Membership wireframe](assets/images/wireframes/membership.png)
-
-#### How It Works Wireframe
-
-[How It Works wireframe](assets/images/wireframes/about.png)
-
-#### Gallery Wireframe
-
-![Gallery wireframe](assets/images/wireframes/gallery.png)
-
-#### Contact Us Wireframe
-
-![Contact Us wireframe](assets/images/wireframes/contact.png)
-
-#### User Navigation Map
-
-![User navigation map](assets/images/wireframes/navmap.png)
+[Here is a link to the Wireframes and User Navigation Map](assets/epb-wireframes.pdf)
 
 ### Features
 * Text information
@@ -120,9 +93,32 @@ GitHub is used to store the projects code after being pushed from Git.
 #### Balsamiq:
 Balsamiq was used to create the wireframes during the design process.
 
-DEPLOYMENT SECTION
-How I deployed it
-How someone could clone and run it themselves
+## Deployment
+### Initial Deployment
+This site was deployed to GitHub Pages by following these steps:
+1. Login or Sign Up to GitHub.
+2. Create a new repository named "milestone1-escape-pool-bar".
+3. Once created, click on "Settings" on the main navigation bar under the repository title.
+4. Scroll down to "GitHub Pages".
+5. Under "Source", choose which branch to deploy (I chose "master", which can also be named "main").
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed.
+8. Your URL will be displayed above "Source". It can take some time for the page to be fully deployed.
+
+### How to fork it
+1. Login or Sign Up to GitHub.
+2. On GitHub, go to Abibubble/milestone1-escape-pool-bar.
+3. In the top right, click "Fork".
+
+### How to clone it
+1. Login or Sign Up to GitHub
+2. Fork the repository Abibubble/milestone1-escape-pool-bar.
+3. Above the file list, click "Code".
+4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
+5. Open Git Bash.
+6. Change the directory to where you want your clone to go.
+7. Type gitclone and then paste the URL you copied in step 4.
+8. Press Enter to create your clone.
 
 ---
 ## Testing
