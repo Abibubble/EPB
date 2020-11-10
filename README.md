@@ -123,8 +123,8 @@ This site was deployed to GitHub Pages by following these steps:
 ---
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-* W3C Markup Validator - Results <--LINKS-->
-* W3C CSS Validator - Results <--LINKS-->
+* [W3C Markup Validator - Results](link) <--LINKS-->
+* [W3C CSS Validator - Results](link) <--LINKS-->
 
 ### Testing User Stories from User Experience (UX) Section
 #### First Time Visitor Goals
@@ -156,15 +156,114 @@ The user can also scroll to the bottom of any page on the site to locate contact
 Scrolling down on the Contact Us page gives a form on tablet and desktop that cal be filled in to submit a table booking request. 
 There is also an alternative link to their Facebook page, where a table booking can also be submitted.
 
+### Full Testing
+On every device and browser, I tested the following:
+* Click the top left logo to take us to Homepage from Homepage
+* Click the top left logo to take us to Homepage from Membership
+* Click the top left logo to take us to Homepage from How It Works
+* Click the top left logo to take us to Homepage from Gallery
+* Click the top left logo to take us to Homepage from Contact Us
+
+* Click the Home button in the navbar to take us to Homepage from Homepage
+* Click the Home button in the navbar to take us to Homepage from Membership
+* Click the Home button in the navbar to take us to Homepage from How It Works
+* Click the Home button in the navbar to take us to Homepage from Gallery
+* Click the Home button in the navbar to take us to Homepage from Contact Us
+
+* Click the Membership button in the navbar to take us to Membership from Homepage
+* Click the Membership button in the navbar to take us to Membership from Membership
+* Click the Membership button in the navbar to take us to Membership from How It Works
+* Click the Membership button in the navbar to take us to Membership from Gallery
+* Click the Membership button in the navbar to take us to Membership from Contact Us
+
+* Click the How It Works button in the navbar to take us to How It Works from Homepage
+* Click the How It Works button in the navbar to take us to How It Works from Membership
+* Click the How It Works button in the navbar to take us to How It Works from How It Works
+* Click the How It Works button in the navbar to take us to How It Works from Gallery
+* Click the How It Works button in the navbar to take us to How It Works from Contact Us
+
+* Click the Gallery button in the navbar to take us to Gallery from Homepage
+* Click the Gallery button in the navbar to take us to Gallery from Membership
+* Click the Gallery button in the navbar to take us to Gallery from How It Works
+* Click the Gallery button in the navbar to take us to Gallery from Gallery
+* Click the Gallery button in the navbar to take us to Gallery from Contact Us
+
+* Click the Contact Us button in the navbar to take us to Contact Us from Homepage
+* Click the Contact Us button in the navbar to take us to Contact Us from Membership
+* Click the Contact Us button in the navbar to take us to Contact Us from How It Works
+* Click the Contact Us button in the navbar to take us to Contact Us from Gallery
+* Click the Contact Us button in the navbar to take us to Contact Us from Contact Us
+
+* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Homepage
+* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Membership
+* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from How It Works
+* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Gallery
+* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Contact Us
+
+* Click the Facebook link in the main body of the page to take us to their Facebook page in a separate tab from Contact Us
+* Click the Twitter link in the main body of the page to take us to their Twitter page in a separate tab from Contact Us
+
+* Click the Download Membership form to open a PDF membership form in a separate tab from Membership page
+
+* Attempt to submit the form on Contact Us without a full name
+* Attempt to submit the form on Contact Us without an email address
+* Attempt to submit the form on Contact Us without a date
+* Attempt to submit the form on Contact Us without a start time
+* Attempt to submit the form on Contact Us without an end time
+* Attempt to submit the form on Contact Us without a table type
+
+* Click to drop down the answers to each FAQ on the Contact Us page
+* Click to scroll backwards and forwards through each image on the Gallery page
+
+#### Desktop / Laptop
+1. Chrome
+* 
+
+2. Edge
+* 
+
+3. Firefox
+* 
+
+4. Internet Explorer
+* 
+
+#### Tablet
+1. Chrome
+* 
+
+#### Mobile
+1. Chrome
+* 
+
+2. Safari
+* 
+
+3. Samsung Internet
+* 
+
 EXPLAIN FULLY EVERY TEST I DO, SO SOMEONE ELSE COULD REPLICATE THE TEST
 SCREENSHOTS ARE GOOD WHEN BUGS ARE FOUND
 LIGHTHOUSE IN DEVTOOLS, PLUS SCREENSHOTS
 
 ### Further Testing
-The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-The website was viewed on a variety of devices such as Desktop, Laptop, Amazon Fire tablet, OPPO Find X2 Lite, Samsung Galaxy A70, Samsung Galazy S9, and Samsung A20.
-A large amount of testing was done to ensure that all pages were linking correctly.
-Friends, family members, staff and customers were asked to review the site and documentation to point out any bugs and/or user experience issues.
+The website was tested on Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari and Samsung Internet browsers.
+The website was viewed on a variety of devices, including:
+* Desktop
+* Laptop
+* iPad
+* Amazon Fire tablet
+* iPhone 7
+* iPhone X
+* iPhone 12
+* OPPO Find X2 Lite
+* Samsung Galaxy A70
+* Samsung Galaxy S9
+* Samsung Galaxy S10+
+* Samsung A20
+
+A large amount of testing was done to ensure that all pages were linking correctly, all buttons worked as they should, and the form .
+Friends, family members, members of staff and 13 customers were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Solved Bugs
 
