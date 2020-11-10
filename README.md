@@ -273,15 +273,16 @@ On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
 ---
 ## Credits
 ### Code
-Bootstrap4: Bootstrap Library used throughout to make site responsive using the Bootstrap Grid System.
+* Bootstrap4: Bootstrap Library used throughout to make site responsive using the Bootstrap Grid System.
+* https://dev.to/ryandsouza13: For help with the code to make a marquee effect without the outdated marquee tag
 
 ### Content
-WORDS WRITTEN BY ANDY AND CONOR
-All content was written by the developer.
+* All text content written by Andrew Chubb, Conor Nye, and the developer.
+* All other code was written by the developer.
 
 ### Media
-Logo designed and created by Andrew Chubb, Owner of Escape Pool Bar.
-All photos were taken by Conor Nye, Bar Manager at Escape Pool Bar.
+* Logo designed and created by Andrew Chubb, Owner of Escape Pool Bar.
+* All photos were taken by Conor Nye, Bar Manager at Escape Pool Bar.
 
 ### Acknowledgements
 * My mentor, Antonio Rodriguez, for continuous helpful feedback and support.
