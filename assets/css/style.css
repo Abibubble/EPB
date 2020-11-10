@@ -135,7 +135,7 @@ p {
 .hero-container {
     height: 95vh;
     width: 100%;
-    background: url(https://i.imgur.com/tpqJZ53.jpg) no-repeat bottom right fixed; 
+    background: url(https://i.imgur.com/B17MTeF.jpg) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -240,7 +240,7 @@ datalist {
 /* Footer */
 
 footer {
-    background-color: gray;
+    background-color: rgb(68, 68, 68);
     color: white;
     margin-top: auto;
     width: 100%;
