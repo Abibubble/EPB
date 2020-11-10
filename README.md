@@ -215,32 +215,35 @@ On every device and browser, I tested the following:
 * Click to drop down the answers to each FAQ on the Contact Us page
 * Click to scroll backwards and forwards through each image on the Gallery page
 
+* Ensure the scrolling text scrolls correctly and at a readable speed
+* Ensure all images load correctly
+
 #### Desktop / Laptop
 1. Chrome
-* 
+* All tested and working correctly
 
 2. Edge
-* 
+* All tested and working correctly
 
 3. Firefox
-* 
+* Scrolling alert scrolls with a jolty movement
 
 4. Internet Explorer
 * 
 
 #### Tablet
 1. Chrome
-* 
+* All tested and working correctly
 
 #### Mobile
 1. Chrome
-* 
+* All tested and working correctly
 
 2. Safari
-* 
+* Images in Gallery slow to load on iPhone X
 
 3. Samsung Internet
-* 
+* All tested and working correctly
 
 EXPLAIN FULLY EVERY TEST I DO, SO SOMEONE ELSE COULD REPLICATE THE TEST
 SCREENSHOTS ARE GOOD WHEN BUGS ARE FOUND

@@ -111,6 +111,12 @@ p {
     top: 0;
 }
 
+.marquee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .alert {
     background-color: #ffff00;
     color: #000;
