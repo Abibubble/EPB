@@ -4,7 +4,7 @@ EXPLAIN WHY I MADE CERTAIN CHOICES - I.E. RESPONSIVE, WHY I MOVED SOME THINGS, W
 
 <h1 align="center">Escape Pool Bar Website</h1>
 
-<img src="assets/images/logo.jpg" alt="Escape Pool Bar Logo" align="center">
+<img src="https://i.imgur.com/eBmDfEK.jpg" alt="Escape Pool Bar Logo" align="center">
 
 [Here is a link to the final project](https://abibubble.github.io/milestone1-escape-pool-bar/index.html)
 
