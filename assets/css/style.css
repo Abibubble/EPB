@@ -150,6 +150,10 @@ p {
   }
 }
 
+.white {
+    color: #fff;
+}
+
 #navbarNavDropdown {
     z-index: 3;
 }

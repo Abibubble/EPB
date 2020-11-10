@@ -3,13 +3,13 @@ EXPLAIN WHY I MADE CERTAIN CHOICES - I.E. RESPONSIVE, WHY I MOVED SOME THINGS, W
 
 <h1 align="center">Escape Pool Bar Website</h1>
 
-<img src="https://i.imgur.com/eBmDfEK.jpg" alt="Escape Pool Bar Logo" align="center">
+<img src="https://i.imgur.com/58gfpVX.jpg" alt="Escape Pool Bar Logo" align="center">
 
 [Here is a link to the final project](https://abibubble.github.io/milestone1-escape-pool-bar/index.html)
 
 This is the website for Escape Pool Bar, designed to be responsive and accessible on a range of devices, making it easy to access any information that their customers could need.
 
-![Final project image](assets/images/wireframes/project.jpg)
+![Final project image](https://i.imgur.com/IPxVfqZ.png)
 
 ---
 ## Initial discussion
@@ -123,8 +123,8 @@ This site was deployed to GitHub Pages by following these steps:
 ---
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-* [W3C Markup Validator - Results](link) <--LINKS-->
-* [W3C CSS Validator - Results](link) <--LINKS-->
+* [W3C Markup Validator - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html)
+* [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Testing User Stories from User Experience (UX) Section
 #### First Time Visitor Goals
@@ -157,103 +157,42 @@ Scrolling down on the Contact Us page gives a form on tablet and desktop that ca
 There is also an alternative link to their Facebook page, where a table booking can also be submitted.
 
 ### Full Testing
-On every device and browser, I tested the following:
-* Click the top left logo to take us to Homepage from Homepage
-* Click the top left logo to take us to Homepage from Membership
-* Click the top left logo to take us to Homepage from How It Works
-* Click the top left logo to take us to Homepage from Gallery
-* Click the top left logo to take us to Homepage from Contact Us
-
-* Click the Home button in the navbar to take us to Homepage from Homepage
-* Click the Home button in the navbar to take us to Homepage from Membership
-* Click the Home button in the navbar to take us to Homepage from How It Works
-* Click the Home button in the navbar to take us to Homepage from Gallery
-* Click the Home button in the navbar to take us to Homepage from Contact Us
-
-* Click the Membership button in the navbar to take us to Membership from Homepage
-* Click the Membership button in the navbar to take us to Membership from Membership
-* Click the Membership button in the navbar to take us to Membership from How It Works
-* Click the Membership button in the navbar to take us to Membership from Gallery
-* Click the Membership button in the navbar to take us to Membership from Contact Us
-
-* Click the How It Works button in the navbar to take us to How It Works from Homepage
-* Click the How It Works button in the navbar to take us to How It Works from Membership
-* Click the How It Works button in the navbar to take us to How It Works from How It Works
-* Click the How It Works button in the navbar to take us to How It Works from Gallery
-* Click the How It Works button in the navbar to take us to How It Works from Contact Us
-
-* Click the Gallery button in the navbar to take us to Gallery from Homepage
-* Click the Gallery button in the navbar to take us to Gallery from Membership
-* Click the Gallery button in the navbar to take us to Gallery from How It Works
-* Click the Gallery button in the navbar to take us to Gallery from Gallery
-* Click the Gallery button in the navbar to take us to Gallery from Contact Us
-
-* Click the Contact Us button in the navbar to take us to Contact Us from Homepage
-* Click the Contact Us button in the navbar to take us to Contact Us from Membership
-* Click the Contact Us button in the navbar to take us to Contact Us from How It Works
-* Click the Contact Us button in the navbar to take us to Contact Us from Gallery
-* Click the Contact Us button in the navbar to take us to Contact Us from Contact Us
-
-* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Homepage
-* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Membership
-* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from How It Works
-* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Gallery
-* Click the Facebook link in the footer to take us to their Facebook page in a separate tab from Contact Us
-
-* Click the Facebook link in the main body of the page to take us to their Facebook page in a separate tab from Contact Us
-* Click the Twitter link in the main body of the page to take us to their Twitter page in a separate tab from Contact Us
-
-* Click the Download Membership form to open a PDF membership form in a separate tab from Membership page
-
-* Attempt to submit the form on Contact Us without a full name
-* Attempt to submit the form on Contact Us without an email address
-* Attempt to submit the form on Contact Us without a date
-* Attempt to submit the form on Contact Us without a start time
-* Attempt to submit the form on Contact Us without an end time
-* Attempt to submit the form on Contact Us without a table type
-
-* Click to drop down the answers to each FAQ on the Contact Us page
-* Click to scroll backwards and forwards through each image on the Gallery page
-
-* Ensure the scrolling text scrolls correctly and at a readable speed
-* Ensure all images load correctly
+[Click here to view the full testing steps that were completed on every device and browser](assets/testing-steps.pdf)
 
 #### Desktop / Laptop
 1. Chrome
-* All tested and working correctly
+    * All tested and working correctly
 
 2. Edge
-* All tested and working correctly
+    * All tested and working correctly
 
 3. Firefox
-* Scrolling alert scrolls with a jolty movement
+    * Scrolling alert scrolls with a jolty movement
 
 4. Internet Explorer
-* 
+    * Layout is completely shifted, with all text only appearing on the right half of the viewport width
+    * No dropdowns to the FAQs, as the details tag isn't supported on Internet Explorer
 
 #### Tablet
 1. Chrome
-* All tested and working correctly
+    * All tested and working correctly
 
 #### Mobile
 1. Chrome
-* All tested and working correctly
+    * All tested and working correctly
 
 2. Safari
-* Images in Gallery slow to load on iPhone X
+    * Images in Gallery slow to load on iPhone X
 
 3. Samsung Internet
-* All tested and working correctly
-
-EXPLAIN FULLY EVERY TEST I DO, SO SOMEONE ELSE COULD REPLICATE THE TEST
-SCREENSHOTS ARE GOOD WHEN BUGS ARE FOUND
-LIGHTHOUSE IN DEVTOOLS, PLUS SCREENSHOTS
+    * All tested and working correctly
 
 ### Further Testing
 The website was tested on Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari and Samsung Internet browsers.
 The website was viewed on a variety of devices, including:
 * Desktop
-* Laptop
+* Acer Aspire V Nitro Laptop, running Windows 10
+* Lenovo B51 IntelCore i7 Laptop, running Ubuntu
 * iPad
 * Amazon Fire tablet
 * iPhone 7
@@ -268,10 +207,25 @@ The website was viewed on a variety of devices, including:
 A large amount of testing was done to ensure that all pages were linking correctly, all buttons worked as they should, and the form .
 Friends, family members, members of staff and 13 customers were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+SCREENSHOTS ARE GOOD WHEN BUGS ARE FOUND
+LIGHTHOUSE IN DEVTOOLS, PLUS SCREENSHOTS
+
 ### Solved Bugs
+1. The links stopped working when I deployed this project to GitHub Pages.
+    * Whilst building the project, none of the links worked without a / in front of the page link.
+    * When it came to deploying the project, the links didn't work because of this.
+    * Thanks to @JimLynx_lead on Slack, he pointed out that links should not have a / before the page link.
+    * I removed these across the project, and the links worked.
+
+2. The footer had a 10px gap underneath it, with no code to match it
+    * 
+
+3. Responsive design on the navigation bar resulted in many issues
+    * 
 
 ### Known Bugs
-On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
+* On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
+* On mobile, the page loads slightly zoomed in on Homepage, Membership, and How It Works.
 
 ---
 ## Credits
