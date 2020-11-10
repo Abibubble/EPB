@@ -353,6 +353,9 @@ footer {
     .hero-header {
         font-size: 70px;
     }
+    .member-header {
+        margin-top: 125px;
+    }
     .hero .lead {
         font-size: 25px;
     }
@@ -394,16 +397,37 @@ footer {
 
 @media only screen and (min-width: 576px) and (max-width: 769px) and (orientation:landscape) {
     .index-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .member-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .about-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .contact-header {
-        margin-top: 150px;
+        margin-top: 50px;
+    }
+    #navbarNavDropdown {
+        background-color: #000;
+        z-index: 3;
+        position: fixed;
+        right: 0;
+        top: 100px;
+    }
+    .hidden {
+        display: none;
+    }
+    form {
+        display: none;
+    }
+    .hide {
+        display: none;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }
 
@@ -468,16 +492,25 @@ footer {
 
 @media only screen and (max-width: 576px) and (orientation:landscape) {
     .index-header {
-        margin-top: 100px;
+        margin-top: 0;
+        font-size: 20px;
     }
     .member-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .about-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .contact-header {
-        margin-top: 150px;
+        margin-top: 0;
+    }
+    .hide {
+        display: none;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }
 
@@ -489,16 +522,16 @@ footer {
         font-size: 27px;
     }
     .index-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .member-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .about-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .contact-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .optional {
         display: hidden;
