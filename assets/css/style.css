@@ -132,7 +132,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
     height: 30px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .alert div { /*Special thanks to https://dev.to/ryandsouza13/creating-the-classic-marquee-effect-without-the-marquee-tag-4246 for this code*/
@@ -142,6 +142,7 @@ p {
   padding-left: 100%;
   display: inline-block;
   animation: animate 15s linear infinite;
+  z-index: 1;
 }
 
 @keyframes animate {
@@ -319,13 +320,16 @@ footer {
 
 /* Responsive design */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (orientation:landscape) {
     #navbarNavDropdown {
         background-color: #000;
         z-index: 3;
         position: fixed;
         right: 0;
         top: 100px;
+    }
+    .nav-item {
+        white-space: nowrap;
     }
     .nav-col {
         border-right: 0;
@@ -388,6 +392,21 @@ footer {
     }
 }
 
+@media only screen and (min-width: 576px) and (max-width: 769px) and (orientation:landscape) {
+    .index-header {
+        margin-top: 100px;
+    }
+    .member-header {
+        margin-top: 100px;
+    }
+    .about-header {
+        margin-top: 100px;
+    }
+    .contact-header {
+        margin-top: 150px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .intro {
         width: 100%;
@@ -447,6 +466,21 @@ footer {
     }
 }
 
+@media only screen and (max-width: 576px) and (orientation:landscape) {
+    .index-header {
+        margin-top: 100px;
+    }
+    .member-header {
+        margin-top: 100px;
+    }
+    .about-header {
+        margin-top: 100px;
+    }
+    .contact-header {
+        margin-top: 150px;
+    }
+}
+
 @media only screen and (max-width: 340px) {
     p {
         font-size: 16px;
@@ -496,5 +530,20 @@ footer {
     }
     .hidden {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 340px) and (orientation:landscape) {
+    .index-header {
+        margin-top: 100px;
+    }
+    .member-header {
+        margin-top: 100px;
+    }
+    .about-header {
+        margin-top: 100px;
+    }
+    .contact-header {
+        margin-top: 150px;
     }
 }
