@@ -506,11 +506,6 @@ footer {
     .gallery-footer {
         display: none;
     }
-    footer {
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 0;
-    }
     .hero-container {
         height: 100vh;
     }
@@ -577,7 +572,7 @@ footer {
         display: none;
     }
     .hero-container {
-    height: 100vh;
+        height: 100vh;
     }
 }
 
@@ -597,11 +592,6 @@ footer {
     }
     .hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
-    }
-    footer {
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 0;
     }
     .hero-container {
         height: 100vh;
@@ -668,7 +658,7 @@ footer {
         display: none;
     }
     .hero-container {
-    height: 100vh;
+        height: 100vh;
     }
 }
 
@@ -689,6 +679,6 @@ footer {
         display: none;
     }
     .hero-container {
-    height: 100vh;
+        height: 100vh;
     }
 }
