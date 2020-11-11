@@ -405,6 +405,21 @@ footer {
     }
 }
 
+@media only screen and (max-width: 668px) and (min-width: 666px) and (orientation: landscape) {
+    .index-header {
+        margin-top: 200px;
+    }
+    .member-header {
+        margin-top: 200px;
+    }
+    .about-header {
+        margin-top: 0x;
+    }
+    .responsive-text {
+        font-size: 15px;
+    }
+}
+
 @media only screen and (min-width: 576px) and (max-width: 768px) {
     .intro {
         width: 600px;
@@ -421,9 +436,6 @@ footer {
     }
     .nav-item {
         white-space: nowrap;
-    }
-    .hero .lead {
-        font-size: 20px;
     }
     .contact p, .copyright p {
         font-size: 15px;
@@ -490,18 +502,6 @@ footer {
     }
     .hero-container {
     height: 100vh;
-    }
-}
-
-@media only screen and (max-width: 668px) and (min-width: 666px) {
-    .index-header {
-        margin-top: 200px;
-    }
-    .member-header {
-        margin-top: 200px;
-    }
-    .about-header {
-        margin-top: 200px;
     }
 }
 
@@ -671,8 +671,4 @@ footer {
     .hero-container {
     height: 100vh;
     }
-}
-
-.slightly-high {
-    margin-top: 30px;
 }
