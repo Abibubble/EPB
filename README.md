@@ -1,6 +1,6 @@
 <h1 align="center">Escape Pool Bar Website</h1>
 
-<img src="https://i.imgur.com/58gfpVX.jpg" alt="Escape Pool Bar Logo" align="center">
+<img src="https://i.imgur.com/hWPxdcK.jpg" alt="Escape Pool Bar Logo" align="center">
 
 [Here is a link to the final project](https://abibubble.github.io/milestone1-escape-pool-bar/index.html)
 
