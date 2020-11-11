@@ -162,7 +162,7 @@ p {
 /* Hero image and text overlay */
 
 .hero-container {
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     background: url(https://i.imgur.com/7IZiJzt.jpg) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -236,6 +236,10 @@ p {
 
 .info-header p {
     margin-bottom: 15px;
+}
+
+.member-header {
+    margin-top: 20px;
 }
 
 .socials {
