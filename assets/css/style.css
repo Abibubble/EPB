@@ -372,8 +372,8 @@ footer {
     .big-hide {
         display: none;
     }
-    .member-header {
-        margin-top: 0;
+    .hero-container {
+    height: 100vh;
     }
 }
 
@@ -388,7 +388,7 @@ footer {
         font-size: 70px;
     }
     .member-header {
-        margin-top: 125px;
+        margin-top: 0;
     }
     .hero .lead {
         font-size: 25px;
@@ -426,6 +426,9 @@ footer {
     }
     form {
         margin-left: 5px;
+    }
+    .hero-container {
+    height: 100vh;
     }
 }
 
@@ -466,6 +469,9 @@ footer {
         bottom: 0;
         margin-bottom: 0;
     }
+    .hero-container {
+    height: 100vh;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -483,16 +489,16 @@ footer {
         top: 100px;
     }
     .index-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .member-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .about-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .contact-header {
-        margin-top: 150px;
+        margin-top: 50px;
     }
     iframe {
         width: 90vw;
@@ -525,6 +531,9 @@ footer {
     .hidden {
         display: none;
     }
+    .hero-container {
+    height: 100vh;
+    }
 }
 
 @media only screen and (max-width: 576px) and (orientation:landscape) {
@@ -548,6 +557,9 @@ footer {
         position: absolute;
         bottom: 0;
         margin-bottom: 0;
+    }
+    .hero-container {
+    height: 100vh;
     }
 }
 
@@ -601,22 +613,28 @@ footer {
     .hidden {
         display: none;
     }
+    .hero-container {
+    height: 100vh;
+    }
 }
 
 @media only screen and (max-width: 340px) and (orientation:landscape) {
     .index-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .member-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .about-header {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .contact-header {
-        margin-top: 150px;
+        margin-top: 50px;
     }
     footer {
         display: none;
+    }
+    .hero-container {
+    height: 100vh;
     }
 }
