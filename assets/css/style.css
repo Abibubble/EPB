@@ -419,6 +419,9 @@ footer {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+    p {
+        font-size: 15px;
+    }
     .intro {
         width: 600px;
     }
@@ -463,6 +466,9 @@ footer {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) and (orientation:landscape) {
+    p {
+        font-size: 15px;
+    }
     .index-header {
         margin-top: 150px;
     }
@@ -511,6 +517,9 @@ footer {
 }
 
 @media only screen and (max-width: 576px) and (min-width: 341px) {
+    p {
+        font-size: 15px;
+    }
     .intro {
         width: 100%;
     }
