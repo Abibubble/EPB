@@ -47,6 +47,10 @@ This is the website for Escape Pool Bar, designed to be responsive and accessibl
     * [Solved Bugs](#solved-bugs)
     * [Known Bugs](#known-bugs)
     * [Lighthouse](#lighthouse)
+        * [Performance](#performance)
+        * [Accessibility](#accessibility)
+        * [Best Practices](#best-practices)
+        * [SEO](#seo)
 
 * [Credits](#credits)
     * [Code](#code)
@@ -116,8 +120,8 @@ I created wireframes for desktop, mobile and tablet, and a user navigation map f
 ---
 ## Technologies Used
 ### Languages Used
-* HTML5
-* CSS3
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
 
 ### Frameworks Libraries and Programs Used
 #### Bootstrap 4.5.2:
@@ -323,17 +327,17 @@ Friends, family members, members of staff and 13 customers were asked to review 
 ### Lighthouse
 I tested my website using DevTools Lighthouse feature, and originally got this result.
 
-![Lighthouse first try](https://i.imgur.com/u87Rcro.png)
+![Lighthouse first try](https://i.imgur.com/ELJvrmg.png)
 
 I resized all the images I used in the website, as Lighthouse suggested that they were too big and reducing my performance, and 
-I got this result on both my Home page and my Gallery page (which is the most image-heavy page).
+I got this result on both my Home page and my Gallery page (which is the most image-heavy page). I added rel="noopener" to all of my external links, to improve the Best Practices score.
 
-![Lighthouse Homepage](https://i.imgur.com/ju05z4W.png)
+![Lighthouse Homepage](https://i.imgur.com/GrKowWR.png)
 
 #### Performance:
 I have lowered the size of my image files to boost this score, but not to a point that reduced their quality. 
 The remaining suggestions for performance were:
-* Smaller image for my hero image, but I was not willing to lower the quality of this element.
+* Reduce the size of the image for my hero image, but I was not willing to lower the quality of this element.
 * Save images in next-gen formats, such as JPEG 2000, which I decided against for simplicity.
 * Eliminate render-blocking resources, which came up as Bootstrap so I was unable to improve this.
 
@@ -343,18 +347,22 @@ Despite these 3 points of improvement, I am happy to accept a score of 98.
 I have ALT text on all images and features throughout the site, giving me a score of 100.
 
 #### Best Practices:
-I checked all my code on [W3C Validator](#w3c-validator) before looking at this. There were 4 suggestions for improvement.
+I checked all my code on [W3C Validator](#w3c-validator) before looking at this. There were 3 suggestions for improvement.
 * The logo was called up for being an incorrect size, however, it resizes depending on the device being used, so I couldn't improve this.
 * The logo was also called up for being of a low quality, because the aspect ratios were slightly off due to responsive design. However, as it's a simple logo, this doesn't reduce the quality on the website.
-* 
+* The link with jQuery has 'JavaScript libraries with known vulnerabilities', with 3 vulnerabilities, which reduced my score in this area.
+ 
+I will continue to look into this as I learn more, with an aim to improving this score beyond 79.
 
 #### SEO:
-Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon, and other basic SEO principles.
+Unfortunately I'm not very well-versed in SEO practices, although the site seemed to do well regardless. To improve this from 92 to 100, I added a meta description.
+
 ---
 ## Credits
 ### Code
-* Bootstrap4: Bootstrap Library used throughout to make site responsive using the Bootstrap Grid System.
-* https://dev.to/ryandsouza13: For help with the code to make a marquee effect without the obselete marquee tag.
+* [Bootstrap4](https://getbootstrap.com/): Bootstrap Library used throughout to make site responsive using the Bootstrap Grid System.
+* [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
+* [ryandsouza13](https://dev.to/ryandsouza13): For help with the code to make a marquee effect without the obselete marquee tag.
 * @JimLynx_lead from the Slack community, for his help with my navigation bar responsivity and the links issue I had with GitHub Pages.
 * Harry Dhillon from the Slack community, for his help with my navigation bar dropdown menu.
 * Daisy Mc Gurr from the Slack community, for her help with my footer bug.
@@ -362,8 +370,8 @@ Being a basic HTML document this project follows the basic SEO principles includ
 * [moz.com](https://moz.com/learn/seo/meta-description#:~:text=The%20meta%20description%20is%20an,can%20influence%20click%2Dthrough%20rates.) for the knowledge of how to do meta descriptions.
 
 ### Content
-* All text content written by Andrew Chubb, Conor Nye, and the developer.
-* All other code was written by the developer.
+* All text content written by Andrew Chubb, Conor Nye, and the developer, Abi Harrison.
+* All other code was written by the developer, Abi Harrison.
 
 ### Media
 * Logo designed and created by Andrew Chubb, Owner of Escape Pool Bar.
