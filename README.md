@@ -17,8 +17,46 @@ This is the website for Escape Pool Bar, designed to be responsive and accessibl
 
 ![Final project image](https://i.imgur.com/IPxVfqZ.png)
 
+## Contents
+
+* [User Experience (UX)](#user-experience-(ux))
+    * [Initial Discussion](#initial-discussion)
+    * [User Stories](#user-stories)
+
+* [Design](#design)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
+    * [Features](#features)
+
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
+
+* [Deployment](#deployment)
+    * [Initial Deployment](#initial-deployment)
+    * [How to Fork it](#how-to-fork-it)
+    * [How to Clone it](#how-to-clone-it)
+
+* [Testing](#testing)
+    * [W3C Validator](#w3c-validator)
+    * [Testing User Stories](#testing-user-stories)
+    * [Full Testing](#full-testing)
+    * [Further Testing](#further-testing)
+    * [Solved Bugs](#solved-bugs)
+    * [Known Bugs](#known-bugs)
+    * [Lighthouse](#lighthouse)
+
+* [Credits](#credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+
 ---
-## Initial discussion
+## User Experience (UX)
+### Initial Discussion
 In the initial planning meeting with the bar manager of Escape Pool Bar, he requested a website that would easily provide information to customers.
 The staff were spending a lot of time at the bar explaining the details of how their pool bar works to customers, which was wasting time that the staff could be doing other duties.
 
@@ -33,9 +71,8 @@ The main information that customers ask for are as follows:
 * Opening hours
 * Contact information
 * How to book a table
----
-## User Experience (UX)
-### User stories
+
+### User Stories
 #### Client Goals
 * We want to have the information that customers often ask for displayed in an easy to find way.
 * We want to make it easier for our customers to understand how our pricing works
@@ -82,7 +119,7 @@ I created wireframes for desktop, mobile and tablet, and a user navigation map f
 * HTML5
 * CSS3
 
-### Frameworks, Libraries & Programs Used
+### Frameworks Libraries and Programs Used
 #### Bootstrap 4.5.2:
 Bootstrap was used to help with the responsiveness and styling of the website.
 #### Hover.css:
@@ -118,12 +155,12 @@ This site was deployed to GitHub Pages by following these steps:
 7. Click "Save", then wait for it to be deployed.
 8. Your URL will be displayed above "Source". It can take some time for the page to be fully deployed.
 
-### How to fork it
+### How to Fork it
 1. Login or Sign Up to GitHub.
 2. On GitHub, go to Abibubble/milestone1-escape-pool-bar.
 3. In the top right, click "Fork".
 
-### How to clone it
+### How to Clone it
 1. Login or Sign Up to GitHub
 2. Fork the repository Abibubble/milestone1-escape-pool-bar.
 3. Above the file list, click "Code".
@@ -135,6 +172,7 @@ This site was deployed to GitHub Pages by following these steps:
 
 ---
 ## Testing
+### W3C Validator
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 The only errors found were due to Bootstrap code and the Google Maps embed code.
 
@@ -151,7 +189,7 @@ The only errors found were due to Bootstrap code and the Google Maps embed code.
     * [gallery.html - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     * [contact.html - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Testing User Stories from User Experience (UX) Section
+### Testing User Stories
 #### First Time Visitor Goals
 ##### I want to easily learn more about the bar.
 Upon entering the site, users are greeted with a navigation bar that is clean and easy to read to take them to the information that they need. 
@@ -287,13 +325,10 @@ I tested my website using DevTools Lighthouse feature, and originally got this r
 
 ![Lighthouse first try](https://i.imgur.com/u87Rcro.png)
 
-I then resized all the images I used in the website, as Lighthouse suggested that they were too big and reducing my performance, and I then got this result.
+I resized all the images I used in the website, as Lighthouse suggested that they were too big and reducing my performance, and 
+I got this result on both my Home page and my Gallery page (which is the most image-heavy page).
 
 ![Lighthouse Homepage](https://i.imgur.com/ju05z4W.png)
-
-I checked Lighthouse on my most image-heavy page, the Gallery page, and was still satisfied with my result.
-
-![Lighthouse Gallery page](https://i.imgur.com/oy706Ju.png)
 
 The remaining things bringing the Lighthouse score down in 'Best Practices' are linked to Bootstrap and aren't something that I can change.
 
@@ -306,6 +341,7 @@ The remaining things bringing the Lighthouse score down in 'Best Practices' are 
 * Harry Dhillon from the Slack community, for his help with my navigation bar dropdown menu.
 * Daisy Mc Gurr from the Slack community, for her help with my footer bug.
 * @Seanyoung247 from the Slack community, for his help with my navigation bar layout.
+* [moz.com](https://moz.com/learn/seo/meta-description#:~:text=The%20meta%20description%20is%20an,can%20influence%20click%2Dthrough%20rates.) for the knowledge of how to do meta descriptions.
 
 ### Content
 * All text content written by Andrew Chubb, Conor Nye, and the developer.
