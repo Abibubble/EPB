@@ -450,9 +450,9 @@ footer {
         display: none;
     }
     footer {
-        position: fixed;
+        position: absolute;
         bottom: 0;
-        left: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -533,9 +533,9 @@ footer {
         display: none;
     }
     footer {
-        position: fixed;
+        position: absolute;
         bottom: 0;
-        left: 0;
+        margin-bottom: 0;
     }
 }
 
