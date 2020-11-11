@@ -301,6 +301,14 @@ iframe {
 
 /* Footer */
 
+.content { /* Thanks to https://css-tricks.com/couple-takes-sticky-footer/ for this code */
+  min-height: calc(100vh - 75px);
+}
+
+.footer {
+  height: 75px;
+}
+
 footer {
     background-color: rgb(68, 68, 68);
     color: white;
