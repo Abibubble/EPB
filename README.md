@@ -330,8 +330,26 @@ I got this result on both my Home page and my Gallery page (which is the most im
 
 ![Lighthouse Homepage](https://i.imgur.com/ju05z4W.png)
 
-The remaining things bringing the Lighthouse score down in 'Best Practices' are linked to Bootstrap and aren't something that I can change.
+#### Performance:
+I have lowered the size of my image files to boost this score, but not to a point that reduced their quality. 
+The remaining suggestions for performance were:
+* Smaller image for my hero image, but I was not willing to lower the quality of this element.
+* Save images in next-gen formats, such as JPEG 2000, which I decided against for simplicity.
+* Eliminate render-blocking resources, which came up as Bootstrap so I was unable to improve this.
 
+Despite these 3 points of improvement, I am happy to accept a score of 98.
+
+#### Accessibility:
+I have ALT text on all images and features throughout the site, giving me a score of 100.
+
+#### Best Practices:
+I checked all my code on [W3C Validator](#w3c-validator) before looking at this. There were 4 suggestions for improvement.
+* The logo was called up for being an incorrect size, however, it resizes depending on the device being used, so I couldn't improve this.
+* The logo was also called up for being of a low quality, because the aspect ratios were slightly off due to responsive design. However, as it's a simple logo, this doesn't reduce the quality on the website.
+* 
+
+#### SEO:
+Being a basic HTML document this project follows the basic SEO principles including a meta description, a favicon, and other basic SEO principles.
 ---
 ## Credits
 ### Code
