@@ -396,7 +396,7 @@ footer {
         display: none;
     }
     .hero-container {
-    height: 100vh;
+        height: 100vh;
     }
     .index-header {
         margin-top: 75px;
@@ -419,7 +419,7 @@ footer {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-    p {
+    .lead {
         font-size: 15px;
     }
     .intro {
@@ -466,7 +466,7 @@ footer {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) and (orientation:landscape) {
-    p {
+    .lead {
         font-size: 15px;
     }
     .index-header {
@@ -517,7 +517,7 @@ footer {
 }
 
 @media only screen and (max-width: 576px) and (min-width: 341px) {
-    p {
+    .lead {
         font-size: 15px;
     }
     .intro {
@@ -612,7 +612,7 @@ footer {
     .nav-item {
         font-size: 15px;
     }
-    p {
+    .lead {
         font-size: 15px;
     }
 }
