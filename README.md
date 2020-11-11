@@ -125,8 +125,18 @@ This site was deployed to GitHub Pages by following these steps:
 ---
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-* [W3C Markup Validator - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html)
-* [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+1. W3C Markup Validator
+    * [index.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html)
+    * [membership.html - Results]()
+    * [about.html - Results]()
+    * [gallery.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fgallery.html)
+    * [contact.html - Results]()
+2. W3C CSS Validator
+    * [index.html - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [membership.html - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fmembership.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [about.html - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [gallery.html - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [contact.html - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Testing User Stories from User Experience (UX) Section
 #### First Time Visitor Goals
