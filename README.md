@@ -127,8 +127,8 @@ This site was deployed to GitHub Pages by following these steps:
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 1. W3C Markup Validator
     * [index.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html)
-    * [membership.html - Results]()
-    * [about.html - Results]()
+    * [membership.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fmembership.html)
+    * [about.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fabout.html)
     * [gallery.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fgallery.html)
     * [contact.html - Results]()
 2. W3C CSS Validator
