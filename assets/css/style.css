@@ -366,6 +366,15 @@ footer {
         width: 350px;
         height: 350px;
     }
+    .gallery-footer {
+        display: none;
+    }
+    .big-hide {
+        display: none;
+    }
+    .member-header {
+        margin-top: 0;
+    }
 }
 
 @media only screen and (min-width: 769px) {
@@ -447,6 +456,9 @@ footer {
         display: none;
     }
     .hide {
+        display: none;
+    }
+    .gallery-footer {
         display: none;
     }
     footer {
@@ -603,5 +615,8 @@ footer {
     }
     .contact-header {
         margin-top: 150px;
+    }
+    footer {
+        display: none;
     }
 }
