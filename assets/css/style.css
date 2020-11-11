@@ -377,6 +377,7 @@ footer {
     }
     .nav-item {
         white-space: nowrap;
+        font-size: 15px;
     }
     .nav-col {
         border-right: 0;
@@ -433,6 +434,7 @@ footer {
     }
     .nav-item {
         white-space: nowrap;
+        font-size: 15px;
     }
     .contact p, .copyright p {
         font-size: 15px;
@@ -447,7 +449,7 @@ footer {
         margin-left: 5px;
     }
     .hero-container {
-    height: 100vh;
+        height: 100vh;
     }
     .intro-header {
         margin-top: 100px;
@@ -504,7 +506,7 @@ footer {
         margin-bottom: 0;
     }
     .hero-container {
-    height: 100vh;
+        height: 100vh;
     }
 }
 
@@ -593,10 +595,13 @@ footer {
         margin-bottom: 0;
     }
     .hero-container {
-    height: 100vh;
+        height: 100vh;
     }
     .down {
         top: 0;
+    }
+    .nav-item {
+        font-size: 15px;
     }
 }
 
