@@ -480,6 +480,9 @@ footer {
         right: 0;
         top: 100px;
     }
+    .nav-item {
+        font-size: 15px;
+    }
     .hidden {
         display: none;
     }
