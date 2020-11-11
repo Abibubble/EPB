@@ -1,6 +1,3 @@
-COMMENT MY CODE (WHAT THINGS DO AND WHY)
-EXPLAIN WHY I MADE CERTAIN CHOICES - I.E. RESPONSIVE, WHY I MOVED SOME THINGS, WHY I HID SOME THINGS, ETC.
-
 <h1 align="center">Escape Pool Bar Website</h1>
 
 <img src="https://i.imgur.com/58gfpVX.jpg" alt="Escape Pool Bar Logo" align="center">
@@ -93,6 +90,10 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.
 #### Balsamiq:
 Balsamiq was used to create the wireframes during the design process.
+#### Responsinator:
+Responsinator was used to help improve the responsive design on a variety of devices.
+#### Google DevTools:
+Google DevTools was used to help me find what code correlated to what feature.
 
 ## Deployment
 ### Initial Deployment
@@ -230,8 +231,14 @@ Friends, family members, members of staff and 13 customers were asked to review 
     * Special thanks to [Ryan d'Souza](https://dev.to/ryandsouza13/creating-the-classic-marquee-effect-without-the-marquee-tag-4246) for this code.
     * I then entered this code, with my own tweaks for the styling that I required, which worked well, and also gives me more control over the scrolling alert bar.
 
+4. Responsive design was a challenge on landscape devices, often with pages either disappearing behind the navigation bar, or appearing way too far below the naavigation bar.
+    * I looked on Responsinator and noted down each orientation and screen width that there were issues, and what issues they were.
+    * I then updated my media queries.
+    * I hid some unimportant elements (such as line breaks and horizonal lines).
+    * I added margin-top to certain pages on certain screen widths and orientations to correct the issue.
+
 Responsive design on the navigation bar resulted in many issues.
-4. The navigation bar didn't fill the viewport width, with all the navigation items being pushed to the left.
+5. The navigation bar didn't fill the viewport width, with all the navigation items being pushed to the left.
     * I'd created the navigation bar using Bootstrap's row and col grid system of classes.
     * I tried using just col classes, which didn't automatically fill the viewport width.
     * I then used col-2 classes on each of the 5 navigation items, and the logo, which also didn't work.
@@ -239,7 +246,7 @@ Responsive design on the navigation bar resulted in many issues.
     * I reached out on Slack, and @Seanyoung247 commented that my navigation bar row wasn't filling the full viewport width, it was left aligned in the container, which is the default.
     * I added 'width: 100%;' to my navigation bar, which solved the problem.
 
-5. When I set my navigation bar to collapse into a burger bar dropdown menu, it only did so on small mobile devices, not for larger mobile devices and tablet like I wanted.
+6. When I set my navigation bar to collapse into a burger bar dropdown menu, it only did so on small mobile devices, not for larger mobile devices and tablet like I wanted.
     * I tried changing my navbar-expand class to sm or md, but it still didn't work on tablets, although this did fix the issue on all mobile sizes.
     * I looked at DevTools, but I couldn't see anything, and I suspected that I was missing some code, rather than having written something wrong.
     * I searched on Google, and couldn't find any helpful fixes
