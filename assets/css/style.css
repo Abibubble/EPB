@@ -583,7 +583,7 @@ footer {
         margin-top: 0;
     }
     .optional {
-        display: hidden;
+        display: none;
     }
     #navbarNavDropdown {
         background-color: #000;
