@@ -58,6 +58,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 The large background hero image is designed to be striking and catch the user's attention, making it clear at first glance what the company does. It has a modern aesthetic, and directly correlates to the company.
 
 ### Wireframes
+I created wireframes for desktop, mobile and tablet, and a user navigation map for the movements a user can make.
 [Here is a link to the Wireframes and User Navigation Map](assets/epb-wireframes.pdf)
 
 ### Features
@@ -77,7 +78,7 @@ The large background hero image is designed to be striking and catch the user's 
 #### Bootstrap 4.5.2:
 Bootstrap was used to help with the responsiveness and styling of the website.
 #### Hover.css:
-Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+Hover.css was used on the social media icons in the footer and the social media and link icons on the Contact Us page to add the styling while being hovered over.
 #### Google Fonts:
 Google fonts was used to import the 'Poppins' font into the style.css file which is used on all pages throughout the project.
 #### Google Maps:
@@ -124,7 +125,7 @@ This site was deployed to GitHub Pages by following these steps:
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 * [W3C Markup Validator - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html)
-* [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [W3C CSS Validator - Results](LINK HERE)
 
 ### Testing User Stories from User Experience (UX) Section
 #### First Time Visitor Goals
@@ -190,11 +191,11 @@ There is also an alternative link to their Facebook page, where a table booking 
 ### Further Testing
 The website was tested on Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari and Samsung Internet browsers.
 The website was viewed on a variety of devices, including:
-* Desktop
+* Custom built desktop PC, running Windows 10
 * Acer Aspire V Nitro Laptop, running Windows 10
-* Lenovo B51 IntelCore i7 Laptop, running Ubuntu
-* iPad
-* Amazon Fire tablet
+* Lenovo B51 IntelCore i7 Laptop, running Ubuntu 16.04 LTS
+* iPad 6,11 5th generation, running iOS 10.3
+* Amazon Fire tablet 7
 * iPhone 7
 * iPhone X
 * iPhone 12
@@ -207,9 +208,6 @@ The website was viewed on a variety of devices, including:
 A large amount of testing was done to ensure that all pages were linking correctly, all buttons worked as they should, and the form .
 Friends, family members, members of staff and 13 customers were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-SCREENSHOTS ARE GOOD WHEN BUGS ARE FOUND
-LIGHTHOUSE IN DEVTOOLS, PLUS SCREENSHOTS
-
 ### Solved Bugs
 1. The links stopped working when I deployed this project to GitHub Pages.
     * Whilst building the project, none of the links worked without a / in front of the page link.
@@ -217,11 +215,36 @@ LIGHTHOUSE IN DEVTOOLS, PLUS SCREENSHOTS
     * Thanks to @JimLynx_lead on Slack, he pointed out that links should not have a / before the page link.
     * I removed these across the project, and the links worked.
 
-2. The footer had a 10px gap underneath it, with no code to match it
-    * 
+2. The footer had a 10px gap underneath it on every page.
+    * I checked Google DevTools to see where this gap could have come from. I didn't see anything that looked like it would cause the gap.
+    * I then checked the Bootstrap code for all the code affecting my elements, again finding nothing.
+    * By this point, I'd been looking at the code so long, it all seemed correct.
+    * I reached out on Slack, and heard back from Daisy Mc Gurr, who checked DevTools and saw a line I'd missed.
+    * My p tag on the left side had a 1rem margin-bottom, set by Bootstrap.
+    * I then set margin-bottom to 0 for all p elements to fix the bug.
 
-3. Responsive design on the navigation bar resulted in many issues
-    * 
+3. To create the scrolling alert bar on the Homepage, I'd used the marquee element, which I discovered is an obselete tag.
+    * I removed the marquee element, so I wouldn't forget it needed to go.
+    * I thought through what I'd need, and realised I'd need some form of animation.
+    * As I haven't used animation styles very much, I decided to follow a tutorial I found on Google to create it.
+    * Special thanks to [Ryan d'Souza](https://dev.to/ryandsouza13/creating-the-classic-marquee-effect-without-the-marquee-tag-4246) for this code.
+    * I then entered this code, with my own tweaks for the styling that I required, which worked well, and also gives me more control over the scrolling alert bar.
+
+Responsive design on the navigation bar resulted in many issues.
+4. The navigation bar didn't fill the viewport width, with all the navigation items being pushed to the left.
+    * I'd created the navigation bar using Bootstrap's row and col grid system of classes.
+    * I tried using just col classes, which didn't automatically fill the viewport width.
+    * I then used col-2 classes on each of the 5 navigation items, and the logo, which also didn't work.
+    * I searched Google and looked at DevTools, but couldn't see anything there.
+    * I reached out on Slack, and @Seanyoung247 commented that my navigation bar row wasn't filling the full viewport width, it was left aligned in the container, which is the default.
+    * I added 'width: 100%;' to my navigation bar, which solved the problem.
+
+5. When I set my navigation bar to collapse into a burger bar dropdown menu, it only did so on small mobile devices, not for larger mobile devices and tablet like I wanted.
+    * I tried changing my navbar-expand class to sm or md, but it still didn't work on tablets, although this did fix the issue on all mobile sizes.
+    * I looked at DevTools, but I couldn't see anything, and I suspected that I was missing some code, rather than having written something wrong.
+    * I searched on Google, and couldn't find any helpful fixes
+    * I reached out to the Slack community, and Harry Dhillon suggested using a larger navbar-expand class.
+    * I tested a few different sizes, and settled on xl, which covered all sizes of tablet and mobile, but didn't include desktop or laptop sizes.
 
 ### Known Bugs
 * On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
@@ -231,7 +254,11 @@ LIGHTHOUSE IN DEVTOOLS, PLUS SCREENSHOTS
 ## Credits
 ### Code
 * Bootstrap4: Bootstrap Library used throughout to make site responsive using the Bootstrap Grid System.
-* https://dev.to/ryandsouza13: For help with the code to make a marquee effect without the outdated marquee tag
+* https://dev.to/ryandsouza13: For help with the code to make a marquee effect without the obselete marquee tag.
+* @JimLynx_lead from the Slack community, for his help with my navigation bar responsivity and the links issue I had with GitHub Pages.
+* Harry Dhillon from the Slack community, for his help with my navigation bar dropdown menu.
+* Daisy Mc Gurr from the Slack community, for her help with my footer bug.
+* @Seanyoung247 from the Slack community, for his help with my navigation bar layout.
 
 ### Content
 * All text content written by Andrew Chubb, Conor Nye, and the developer.
