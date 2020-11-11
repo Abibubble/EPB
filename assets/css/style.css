@@ -243,6 +243,21 @@ p {
     color: #bebbbb;
 }
 
+.socials:hover {
+    text-decoration: underline;
+    color: #bebbbb;
+}
+
+.arrow-down {
+    text-decoration: none;
+    color: #bebbbb;
+}
+
+.arrow-down:hover {
+    text-decoration: none;
+    color: rgb(27, 124, 27);
+}
+
 .gallery-header {
     margin-top: 25px;
     text-align: center;
@@ -299,7 +314,7 @@ footer {
 
 .contact {
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid #000;
     position: relative;
     float: left;
     height: 75px;
@@ -309,13 +324,23 @@ footer {
 
 .copyright {
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid #000;
     position: relative;
     float: right;
-    color: white;
+    color: #fff;
     height: 75px;
     background-color: inherit;
     text-align: center;
+}
+
+.privacy {
+    color: #fff;
+    text-decoration: none;
+}
+
+.privacy:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* Responsive design */
