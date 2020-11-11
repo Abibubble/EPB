@@ -412,9 +412,6 @@ footer {
     .member-header {
         margin-top: 200px;
     }
-    .about-header {
-        margin-top: 100px;
-    }
     .responsive-text {
         font-size: 15px;
     }
@@ -471,7 +468,7 @@ footer {
         margin-top: 150px;
     }
     .about-header {
-        margin-top: 150px;
+        margin-top: 100px;
     }
     .contact-header {
         margin-top: 25px;
