@@ -268,6 +268,7 @@ Responsive design on the navigation bar resulted in many issues.
 ### Known Bugs
 * On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
 * On mobile, the page loads slightly zoomed in on Homepage, Membership, and How It Works.
+* On Samsung Galazy A70, the screen respolution is the same as a laptop, so the responsivity doesn't work as well.
 
 ---
 ## Credits
