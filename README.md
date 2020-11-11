@@ -243,10 +243,11 @@ Friends, family members, members of staff and 13 customers were asked to review 
     * I then entered this code, with my own tweaks for the styling that I required, which worked well, and also gives me more control over the scrolling alert bar.
 
 4. Responsive design was a challenge on landscape devices, often with pages either disappearing behind the navigation bar, or appearing way too far below the naavigation bar.
-    * I looked on Responsinator and noted down each orientation and screen width that there were issues, and what issues they were.
-    * I then updated my media queries.
-    * I hid some unimportant elements (such as line breaks and horizonal lines).
-    * I added margin-top to certain pages on certain screen widths and orientations to correct the issue.
+    * Checked Responsinator and noted down each orientation and screen width that there were issues, and what issues they were.
+    * Updated media queries.
+    * Hid some unimportant elements (such as line breaks and horizonal lines).
+    * Added margin-top to certain pages on certain screen widths and orientations to correct the issue.
+    * There was more of a bug with the landscape iPhone 6-8 specifically (but no other screen sizes), so I edited the media queries to suit this size specifically.
 
 Responsive design on the navigation bar resulted in many issues.
 5. The navigation bar didn't fill the viewport width, with all the navigation items being pushed to the left.
