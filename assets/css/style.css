@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; /* Font from Google Fonts */
     margin: 0;
     padding: 0;
     padding-bottom: 75px;
@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    margin-bottom: 0;
+    margin-bottom: 0; /* To fix the gap under the footer bug */
 }
 
 .block-divider {
@@ -28,7 +28,7 @@ p {
 }
 
 .gallery {
-    background-color: #868686;
+    background-color: #868686; /* For the page with no hero image */
 }
 
 /*Navbar*/
@@ -57,7 +57,7 @@ p {
     float: left;
 }
 
-.navbar-brand img {
+.navbar-brand img { /* The logo */
     height: 100px;
     width: 300px;
     position: fixed;
@@ -89,11 +89,11 @@ p {
     width: 100%;
 }
 
-.nav-col {
+.nav-col { /* To create border lines between nav items */
     border-right: solid 3px grey;
 }
 
-#first-nav {
+#first-nav { /* To create border lines between nav items */
     border-left: solid 3px grey;
 }
 
@@ -111,13 +111,13 @@ p {
     top: 0;
 }
 
-.marquee {
+.marquee { /* For the scrolling alert bar */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.alert {
+.alert { /* For the scrolling alert bar */
     background-color: #ffff00;
     color: #000;
     position: fixed;
@@ -135,7 +135,7 @@ p {
     z-index: 1;
 }
 
-.alert div { /*Special thanks to https://dev.to/ryandsouza13/creating-the-classic-marquee-effect-without-the-marquee-tag-4246 for this code*/
+.alert div { /* Special thanks to https://dev.to/ryandsouza13/creating-the-classic-marquee-effect-without-the-marquee-tag-4246 for this code */
   font-size: 20px;
   font-family: Poppins;
   font-weight: bold;
@@ -145,7 +145,7 @@ p {
   z-index: 1;
 }
 
-@keyframes animate {
+@keyframes animate {  /* For the scrolling alert bar, thanks to the above link for this code */
   100% {
     transform: translate(-100%, 0);
   }
@@ -164,7 +164,7 @@ p {
 .hero-container {
     height: 85vh;
     width: 100%;
-    background: url(https://i.imgur.com/7IZiJzt.jpg) no-repeat bottom right fixed; 
+    background: url(https://i.imgur.com/7IZiJzt.jpg) no-repeat bottom right fixed; /* Background hero image */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,7 @@ p {
     color: #bebbbb;
 }
 
-.scrolling {
+.scrolling {  /* For the scrolling alert bar */
     position: absolute;
     top: 100px;
     display: block;
@@ -210,7 +210,7 @@ p {
     width: 100vw;
 }
 
-.down {
+.down { /* To fix responsive design issues */
     position: absolute;
     top: 100px;
     left: 0;
@@ -242,12 +242,12 @@ p {
     margin-top: 20px;
 }
 
-.socials {
+.socials { /* For the social media links */
     text-decoration: none;
     color: #bebbbb;
 }
 
-.socials:hover {
+.socials:hover { /* For the social media links */
     text-decoration: underline;
     color: #bebbbb;
 }
@@ -267,7 +267,7 @@ p {
     text-align: center;
 }
 
-.carousel, .carousel-item {
+.carousel, .carousel-item { /* For image slideshow on Gallery page */
     width: 70vw;
     height: 65vh;
     margin: 0 auto;
@@ -316,7 +316,7 @@ footer {
     color: white;
 }
 
-.contact {
+.contact { /* To align and style the footer */
     width: 50%;
     border: 1px solid #000;
     position: relative;
@@ -326,7 +326,7 @@ footer {
     text-align: center;
 }
 
-.copyright {
+.copyright { /* To align and style the footer */
     width: 50%;
     border: 1px solid #000;
     position: relative;
@@ -368,7 +368,7 @@ footer {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) and (orientation:landscape) {
-    #navbarNavDropdown {
+    #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
         background-color: #000;
         z-index: 3;
         position: fixed;
@@ -389,24 +389,24 @@ footer {
         width: 350px;
         height: 350px;
     }
-    .gallery-footer {
+    .gallery-footer { /* To fix responsive design issues of the footer taking up unncessary screen space */
         display: none;
     }
-    .big-hide {
+    .big-hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .hero-container {
         height: 100vh;
     }
-    .index-header {
+    .index-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 75px;
     }
-    .member-header {
+    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
 }
 
-@media only screen and (max-width: 668px) and (min-width: 666px) and (orientation: landscape) {
+@media only screen and (max-width: 668px) and (min-width: 666px) and (orientation: landscape) { /* To fix responsive design issues with the header disappearing underneath the navbar */
     .index-header {
         margin-top: 200px;
     }
@@ -428,7 +428,7 @@ footer {
     .smaller-screen {
         display: none;
     }
-    #navbarNavDropdown {
+    #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
         background-color: #000;
         z-index: 3;
         position: fixed;
@@ -454,13 +454,13 @@ footer {
     .hero-container {
         height: 100vh;
     }
-    .intro-header {
+    .intro-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
-    .member-header {
+    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
-    .about-header {
+    .about-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
 }
@@ -469,19 +469,19 @@ footer {
     .lead {
         font-size: 15px;
     }
-    .index-header {
+    .index-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 150px;
     }
-    .member-header {
+    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
-    .about-header {
+    .about-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
-    .contact-header {
+    .contact-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 25px;
     }
-    #navbarNavDropdown {
+    #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
         background-color: #000;
         z-index: 3;
         position: fixed;
@@ -491,16 +491,16 @@ footer {
     .nav-item {
         font-size: 15px;
     }
-    .second {
+    .second { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
-    .hidden {
+    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     form {
         display: none;
     }
-    .hide {
+    .hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .gallery-footer {
@@ -523,23 +523,23 @@ footer {
     .intro {
         width: 100%;
     }
-    .hidden {
+    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
-    #navbarNavDropdown {
+    #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
         background-color: #000;
         z-index: 3;
         position: fixed;
         right: 0;
         top: 100px;
     }
-    .index-header {
+    .index-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 0;
     }
-    .member-header {
+    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 0;
     }
-    .about-header {
+    .about-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 0;
     }
     .contact-header {
@@ -552,7 +552,7 @@ footer {
     .navbar-brand img {
         width: 60%;
     }
-    .smaller-screen {
+    .smaller-screen { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .nav-item {
@@ -573,7 +573,7 @@ footer {
     form {
         display: none;
     }
-    .hidden {
+    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .hero-container {
@@ -592,10 +592,10 @@ footer {
     .about-header {
         margin-top: 0;
     }
-    .contact-header {
+    .contact-header { /* To fix responsive design issues with the header being too far below */
         margin-top: -50px;
     }
-    .hide {
+    .hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     footer {
@@ -606,7 +606,7 @@ footer {
     .hero-container {
         height: 100vh;
     }
-    .down {
+    .down { /* To fix responsive design issues with the header disappearing underneath the navbar */
         top: 0;
     }
     .nav-item {
@@ -639,7 +639,7 @@ footer {
     .optional {
         display: none;
     }
-    #navbarNavDropdown {
+    #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
         background-color: #000;
         z-index: 3;
         position: fixed;
@@ -664,7 +664,7 @@ footer {
     form {
         display: none;
     }
-    .hidden {
+    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .hero-container {
@@ -682,10 +682,10 @@ footer {
     .about-header {
         margin-top: 0;
     }
-    .contact-header {
+    .contact-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 50px;
     }
-    footer {
+    footer { /* To fix responsive design issues of the footer taking up too much screen space */
         display: none;
     }
     .hero-container {

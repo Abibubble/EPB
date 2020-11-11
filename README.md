@@ -1,6 +1,6 @@
 <h1 align="center">Escape Pool Bar Website</h1>
 
-<img src="https://i.imgur.com/hWPxdcK.jpg" alt="Escape Pool Bar Logo" align="center">
+![Escape Pool Bar logo](https://i.imgur.com/hWPxdcK.jpg)
 
 [Here is a link to the final project](https://abibubble.github.io/milestone1-escape-pool-bar/index.html)
 
@@ -46,13 +46,15 @@ The main information that customers ask for are as follows:
 ---
 ## Design
 ### Colour Scheme
-The main colours used are white and green, to correlate with English Pool colours (green cloth, white cue ball).
+The main colours used are white and green, to correlate with English Pool colours (green cloth, white cue ball). 
+The other colours used are black, white and gray, with those being the colours used in the Escape Pool Bar logo and branding.
 
 ### Typography
 The Poppins font is the main font used throughout the whole website with Sans Serif as the fallback font in case the Poppins font isn't being imported into the site correctly.
 
 ### Imagery
-The large background hero image is designed to be striking and catch the user's attention, making it clear at first glance what the company does. It has a modern aesthetic, and directly correlates to the company.
+The large background hero image is designed to be striking and catch the user's attention, making it clear at first glance what the company does. 
+It has a modern aesthetic, and directly correlates to the company.
 
 ### Wireframes
 I created wireframes for desktop, mobile and tablet, and a user navigation map for the movements a user can make.
@@ -126,6 +128,7 @@ This site was deployed to GitHub Pages by following these steps:
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 The only errors found were due to Bootstrap code and the Google Maps embed code.
+
 1. W3C Markup Validator
     * [index.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Findex.html)
     * [membership.html - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fmilestone1-escape-pool-bar%2Fmembership.html)
@@ -249,7 +252,6 @@ Friends, family members, members of staff and 13 customers were asked to review 
     * Added margin-top to certain pages on certain screen widths and orientations to correct the issue.
     * There was more of a bug with the landscape iPhone 6-8 specifically (but no other screen sizes), so I edited the media queries to suit this size specifically.
 
-Responsive design on the navigation bar resulted in many issues.
 5. The navigation bar didn't fill the viewport width, with all the navigation items being pushed to the left.
     * I'd created the navigation bar using Bootstrap's row and col grid system of classes.
     * I tried using just col classes, which didn't automatically fill the viewport width.
@@ -268,7 +270,23 @@ Responsive design on the navigation bar resulted in many issues.
 ### Known Bugs
 * On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
 * On mobile, the page loads slightly zoomed in on Homepage, Membership, and How It Works.
-* On Samsung Galazy A70, the screen respolution is the same as a laptop, so the responsivity doesn't work as well.
+* On Samsung Galaxy A70, the screen respolution is the same as a laptop, so the responsivity doesn't work as well.
+
+
+### Lighthouse
+I tested my website using DevTools Lighthouse feature, and originally got this result.
+
+![Lighthouse first try](https://i.imgur.com/u87Rcro.png)
+
+I then resized all the images I used in the website, as Lighthouse suggested that they were too big and reducing my performance, and I then got this result.
+
+![Lighthouse Homepage](https://i.imgur.com/ju05z4W.png)
+
+I checked Lighthouse on my most image-heavy page, the Gallery page, and was still satisfied with my result.
+
+![Lighthouse Gallery page](https://i.imgur.com/oy706Ju.png)
+
+The remaining things bringing the Lighthouse score down in 'Best Practices' are linked to Bootstrap and aren't something that I can change.
 
 ---
 ## Credits
