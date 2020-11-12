@@ -408,6 +408,9 @@ footer {
     .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
+    form {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 668px) and (min-width: 666px) and (orientation: landscape) { /* To fix responsive design issues with the header disappearing underneath the navbar */
