@@ -392,9 +392,6 @@ footer {
         width: 350px;
         height: 350px;
     }
-    .gallery-footer { /* To fix responsive design issues of the footer taking up unncessary screen space */
-        display: none;
-    }
     .big-hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
@@ -410,6 +407,9 @@ footer {
     form {
         display: none;
     }
+    .carousel-indicators {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 668px) and (min-width: 666px) and (orientation: landscape) { /* To fix responsive design issues with the header disappearing underneath the navbar */
@@ -421,6 +421,9 @@ footer {
     }
     .responsive-text {
         font-size: 15px;
+    }
+    .carousel-indicators {
+        display: none;
     }
 }
 
@@ -469,6 +472,9 @@ footer {
     .about-header { /* To fix responsive design issues with the header disappearing underneath the navbar */
         margin-top: 100px;
     }
+    .carousel-indicators {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) and (orientation:landscape) {
@@ -514,6 +520,9 @@ footer {
     }
     .hero-container {
         height: 100vh;
+    }
+    .carousel-indicators {
+        display: none;
     }
 }
 
@@ -580,6 +589,9 @@ footer {
     .hero-container {
         height: 100vh;
     }
+    .carousel-indicators {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 576px) and (min-width:341px) and (orientation:landscape) {
@@ -605,11 +617,17 @@ footer {
     .down { /* To fix responsive design issues with the header disappearing underneath the navbar */
         top: 0;
     }
+    .gallery-footer { /* To fix responsive design issues of the footer taking up unncessary screen space */
+        display: none;
+    }
     .nav-item {
         font-size: 15px;
     }
     .lead {
         font-size: 15px;
+    }
+    .carousel-indicators {
+        display: none;
     }
 }
 
@@ -666,6 +684,9 @@ footer {
     .hero-container {
         height: 100vh;
     }
+    .carousel-indicators {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 340px) and (orientation:landscape) {
@@ -686,5 +707,11 @@ footer {
     }
     .hero-container {
         height: 100vh;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .gallery-footer { /* To fix responsive design issues of the footer taking up unncessary screen space */
+        display: none;
     }
 }
