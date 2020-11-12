@@ -302,7 +302,7 @@ iframe {
 
 .content { /* Thanks to https://css-tricks.com/couple-takes-sticky-footer/ for this code */
   min-height: calc(100vh - 75px);
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 footer {
