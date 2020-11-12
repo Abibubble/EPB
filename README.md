@@ -344,7 +344,7 @@ The remaining suggestions for performance were:
 Despite these 3 points of improvement, I am happy to accept a score of 98.
 
 #### Accessibility:
-I have ALT text on all images and features throughout the site, giving me a score of 100.
+I have ALT text on all images and features throughout the site, and text for screen readers where necessary, giving me a score of 100.
 
 #### Best Practices:
 I checked all my code on [W3C Validator](#w3c-validator) before looking at this. There were 3 suggestions for improvement.
