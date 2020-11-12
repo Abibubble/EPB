@@ -173,16 +173,11 @@ header {
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
     position: relative;
     border: 0;
     margin: 0;
     padding: 0;
-}
-
-.index-container {
-    margin-top: 25px;
 }
 
 .overlay {
@@ -194,12 +189,12 @@ header {
 
 .hero {
     background-color: transparent;
+    margin-top: 25px;
 }
 
 .hero-header {
     color: #ffffff;
     font-weight: bold;
-    margin-bottom: 25px;
     margin: 0 auto;
 }
 
@@ -217,12 +212,12 @@ header {
     width: 100vw;
 }
 
-.down { /* To fix responsive design issues */
+/*.down { /* To fix responsive design issues 
     position: absolute;
     top: 100px;
     left: 0;
     width: 100%;
-}
+}*/
 
 /* Page content */
 
@@ -376,6 +371,9 @@ footer {
     .hero .lead {
         font-size: 25px;
     }
+    .index-container {
+        margin-top: 25px;
+}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) and (orientation:landscape) {

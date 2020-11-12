@@ -369,6 +369,7 @@ Unfortunately I'm not very well-versed in SEO practices, although the site seeme
 * @Seanyoung247 from the Slack community, for his help with my navigation bar layout.
 * [moz.com](https://moz.com/learn/seo/meta-description#:~:text=The%20meta%20description%20is%20an,can%20influence%20click%2Dthrough%20rates.) for the knowledge of how to do meta descriptions.
 * [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/) for the help getting my footers to stick.
+* Rory B from the Slack community, for helping me with a centering issue.
 
 ### Content
 * All text content written by Andrew Chubb, Conor Nye, and the developer, Abi Harrison.
