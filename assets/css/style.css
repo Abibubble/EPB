@@ -30,6 +30,10 @@ p {
     background-color: #868686; /* For the page with no hero image */
 }
 
+header {
+    height: 100px;
+}
+
 /*Navbar*/
 
 .navalert-container {
@@ -177,6 +181,10 @@ p {
     padding: 0;
 }
 
+.index-container {
+    margin-top: 25px;
+}
+
 .overlay {
     position: absolute;
     height: 100%;
@@ -302,7 +310,6 @@ iframe {
 
 .content { /* Thanks to https://css-tricks.com/couple-takes-sticky-footer/ for this code */
   min-height: calc(100vh - 75px);
-  margin-top: 50px;
 }
 
 footer {
@@ -379,6 +386,9 @@ footer {
         right: 0;
         top: 100px;
     }
+    p {
+        font-size: 16px;
+    }
     .nav-item {
         white-space: nowrap;
         font-size: 15px;
@@ -399,12 +409,6 @@ footer {
     .hero-container {
         height: 100vh;
     }
-    /* .index-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 75px;
-    }
-    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 100px;
-    } */
     form {
         display: none;
     }
