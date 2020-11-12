@@ -2,7 +2,7 @@
 
 html, body {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     display: table;
 }
@@ -42,16 +42,17 @@ header {
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .navbar {
    margin: 0;
    border: 0;
-   width: 100%;
+   width: 100vw;
    height: 100px;
    background-color: #000;
    padding: 0;
+   z-index: 3;
 }
 
 .navbar-brand {
@@ -69,8 +70,14 @@ header {
 }
 
 .nav-item {
-    font-size: 22px;
+    font-size: 21px;
     color: white;
+    z-index: 3;
+}
+
+.col-2 {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .nav-item a:hover {
@@ -115,9 +122,9 @@ header {
 }
 
 .marquee { /* For the scrolling alert bar */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .alert { /* For the scrolling alert bar */
@@ -126,7 +133,7 @@ header {
     position: fixed;
     top: 100px;
     left: 0;
-    width: 100%;
+    width: 100vw;
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
@@ -154,10 +161,6 @@ header {
   }
 }
 
-.white {
-    color: #fff;
-}
-
 #navbarNavDropdown {
     z-index: 3;
 }
@@ -165,8 +168,8 @@ header {
 /* Hero image and text overlay */
 
 .hero-container {
-    height: 85vh;
-    width: 100%;
+    height: 80vh;
+    width: 100vw;
     background: url(https://i.imgur.com/7IZiJzt.jpg) no-repeat bottom right fixed; /* Background hero image */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,6 +204,11 @@ header {
 .hero .lead {
     margin: 0 auto;
     color: #bebbbb;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .scrolling {  /* For the scrolling alert bar */
@@ -265,6 +273,7 @@ header {
 
 .container-wrapper {
     background-color: #bebbbb;
+    width: 100vw;
 }
 
 form {
@@ -306,10 +315,6 @@ footer {
     margin-bottom: 0;
 }
 
-.contact a {
-    color: white;
-}
-
 .contact { /* To align and style the footer */
     width: 50%;
     border: 1px solid #000;
@@ -318,6 +323,10 @@ footer {
     height: 75px;
     background-color: inherit;
     text-align: center;
+}
+
+.contact a {
+    color: white;
 }
 
 .copyright { /* To align and style the footer */
@@ -343,25 +352,29 @@ footer {
 
 /* Responsive design */
 
-@media only screen and (min-width: 769px) {
+@media (min-width: 1050px) {
     .intro {
-        width: 800px;
+        width: 70%;
     }
     .smaller-screen {
         display: none;
     }
     .hero-header {
         font-size: 70px;
+        width: 70%;
     }
     .hero .lead {
         font-size: 25px;
     }
     .index-container {
         margin-top: 25px;
-}
+    }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1200px) and (orientation:landscape) {
+@media (min-width: 769px) and (max-width: 1049px) {
+    html {
+        width: 100vw;
+    }
     #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
         background-color: #000;
         z-index: 3;
@@ -369,8 +382,48 @@ footer {
         right: 0;
         top: 100px;
     }
-    p {
-        font-size: 16px;
+    .nav-item {
+        white-space: nowrap;
+        font-size: 15px;
+    }
+    .nav-col {
+        border-right: 0;
+    }
+    #first-nav {
+        border-left: 0;
+    }
+    .intro {
+        width: 70%;
+    }
+    .smaller-screen {
+        display: none;
+    }
+    .hero-header {
+        font-size: 70px;
+        width: 70%;
+    }
+    .hero .lead {
+        font-size: 25px;
+    }
+    .index-container {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) and (orientation:landscape) {
+    #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
+        background-color: #000;
+        z-index: 3;
+        position: fixed;
+        right: 0;
+        top: 100px;
+    }
+    .hero-header {
+        font-size: 35px;
+        width: 70%;
+    }
+    .hero .lead {
+        font-size: 20px;
     }
     .nav-item {
         white-space: nowrap;
@@ -386,21 +439,15 @@ footer {
         width: 350px;
         height: 350px;
     }
-    .big-hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
+    .big-hide, .carousel-indicators { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .hero-container {
         height: 100vh;
     }
-    form {
-        display: none;
-    }
-    .carousel-indicators {
-        display: none;
-    }
 }
 
-@media only screen and (max-width: 668px) and (min-width: 666px) and (orientation: landscape) { /* To fix responsive design issues with the header disappearing underneath the navbar */
+@media (max-width: 668px) and (min-width: 666px) and (orientation: landscape) { /* To fix responsive design issues with the header disappearing underneath the navbar */
     .responsive-text {
         font-size: 15px;
     }
@@ -409,14 +456,14 @@ footer {
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .lead {
         font-size: 15px;
     }
     .intro {
         width: 600px;
     }
-    .smaller-screen {
+    .smaller-screen, .carousel-indicators { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
@@ -445,12 +492,9 @@ footer {
     .hero-container {
         height: 100vh;
     }
-    .carousel-indicators {
-        display: none;
-    }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 769px) and (orientation:landscape) {
+@media (min-width: 576px) and (max-width: 769px) and (orientation:landscape) {
     .lead {
         font-size: 15px;
     }
@@ -464,19 +508,7 @@ footer {
     .nav-item {
         font-size: 15px;
     }
-    .second { /* To fix responsive design issues of elements taking up unnecessary screen space */
-        display: none;
-    }
-    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
-        display: none;
-    }
-    form {
-        display: none;
-    }
-    .hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
-        display: none;
-    }
-    .gallery-footer {
+    .second, .hidden, .hide-landscape, .gallery-footer { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .hero-container {
@@ -487,14 +519,23 @@ footer {
     }
 }
 
-@media only screen and (max-width: 576px) and (min-width: 341px) {
+@media (max-width: 576px) {
+    h1 {
+        font-size: 27px;
+    }
+    p {
+        padding-bottom: 0;
+    }
     .lead {
         font-size: 15px;
     }
     .intro {
-        width: 100%;
+        width: 100vw;
     }
-    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
+    .smol {
+        font-size: 15px;
+    }
+    .hidden, .smaller-screen, form, .carousel-indicators { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
@@ -508,11 +549,11 @@ footer {
         width: 90vw;
         height: 300px;
     }
+    .iframe {
+        padding-left: 0;
+    }
     .navbar-brand img {
         width: 60%;
-    }
-    .smaller-screen { /* To fix responsive design issues of elements taking up unnecessary screen space */
-        display: none;
     }
     .nav-item {
         white-space: nowrap;
@@ -529,25 +570,16 @@ footer {
     #first-nav {
         border-left: 0;
     }
-    form {
-        display: none;
-    }
-    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
-        display: none;
-    }
     .hero-container {
         height: 100vh;
     }
-    .carousel-indicators {
-        display: none;
-    }
 }
 
-@media only screen and (max-width: 576px) and (min-width:341px) and (orientation:landscape) {
+@media (max-width: 576px) and (orientation:landscape) {
     .index-header {
         font-size: 20px;
     }
-    .hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
+    .hide, .gallery-footer, .carousel-indicators { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
     .hero-container {
@@ -556,83 +588,10 @@ footer {
     .down { /* To fix responsive design issues with the header disappearing underneath the navbar */
         top: 0;
     }
-    .gallery-footer { /* To fix responsive design issues of the footer taking up unncessary screen space */
-        display: none;
-    }
     .nav-item {
         font-size: 15px;
     }
     .lead {
         font-size: 15px;
-    }
-    .carousel-indicators {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 340px) {
-    p {
-        font-size: 15px;
-    }
-    h1 {
-        font-size: 27px;
-    }
-    .optional {
-        display: none;
-    }
-    .navbar-brand img {
-        width: 200px;
-    }
-    #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
-        background-color: #000;
-        z-index: 3;
-        position: fixed;
-        right: 0;
-        top: 100px;
-    }
-    .nav-item {
-        white-space: nowrap;
-    }
-    .hero .lead {
-        font-size: 15px;
-    }
-    .contact p, .copyright p {
-        font-size: 12px;
-    }
-    .nav-col {
-        border-right: 0;
-    }
-    #first-nav {
-        border-left: 0;
-    }
-    form {
-        display: none;
-    }
-    .hidden { /* To fix responsive design issues of elements taking up unnecessary screen space */
-        display: none;
-    }
-    .hero-container {
-        height: 100vh;
-    }
-    .carousel-indicators {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 340px) and (orientation:landscape) {
-    footer { /* To fix responsive design issues of the footer taking up too much screen space */
-        display: none;
-    }
-    .hero-container {
-        height: 100vh;
-    }
-    .navbar-brand img {
-        width: 200px;
-    }
-    .carousel-indicators {
-        display: none;
-    }
-    .gallery-footer { /* To fix responsive design issues of the footer taking up unncessary screen space */
-        display: none;
     }
 }
