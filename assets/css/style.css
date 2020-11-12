@@ -212,13 +212,6 @@ header {
     width: 100vw;
 }
 
-/*.down { /* To fix responsive design issues 
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-}*/
-
 /* Page content */
 
 .info-container {
@@ -239,10 +232,6 @@ header {
 .info-header p {
     margin-bottom: 15px;
 }
-
-/* .member-header {
-    margin-top: 20px;
-} */
 
 .socials { /* For the social media links */
     text-decoration: none;
@@ -265,7 +254,6 @@ header {
 }
 
 .gallery-header {
-    /* margin-top: 25px; */
     text-align: center;
 }
 
@@ -365,9 +353,6 @@ footer {
     .hero-header {
         font-size: 70px;
     }
-    /* .member-header {
-        margin-top: 0;
-    } */
     .hero .lead {
         font-size: 25px;
     }
@@ -416,12 +401,6 @@ footer {
 }
 
 @media only screen and (max-width: 668px) and (min-width: 666px) and (orientation: landscape) { /* To fix responsive design issues with the header disappearing underneath the navbar */
-    /* .index-header {
-        margin-top: 200px;
-    }
-    .member-header {
-        margin-top: 200px;
-    } */
     .responsive-text {
         font-size: 15px;
     }
@@ -466,15 +445,6 @@ footer {
     .hero-container {
         height: 100vh;
     }
-    /* .intro-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 100px;
-    }
-    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 100px;
-    }
-    .about-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 100px;
-    } */
     .carousel-indicators {
         display: none;
     }
@@ -484,18 +454,6 @@ footer {
     .lead {
         font-size: 15px;
     }
-    /* .index-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 150px;
-    }
-    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 100px;
-    }
-    .about-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 100px;
-    }
-    .contact-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 25px;
-    } */
     #navbarNavDropdown { /* To set the dropdown navbar to the right and to be always on top */
         background-color: #000;
         z-index: 3;
@@ -546,18 +504,6 @@ footer {
         right: 0;
         top: 100px;
     }
-    /* .index-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 0;
-    }
-    .member-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 0;
-    }
-    .about-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 0;
-    }
-    .contact-header {
-        margin-top: 50px;
-    } */
     iframe {
         width: 90vw;
         height: 300px;
@@ -599,18 +545,8 @@ footer {
 
 @media only screen and (max-width: 576px) and (min-width:341px) and (orientation:landscape) {
     .index-header {
-        /*margin-top: 0;*/
         font-size: 20px;
     }
-    /* .member-header {
-        margin-top: 0;
-    }
-    .about-header {
-        margin-top: 0;
-    }
-    .contact-header { /* To fix responsive design issues with the header being too far below 
-        margin-top: 150px;
-    } */
     .hide { /* To fix responsive design issues of elements taking up unnecessary screen space */
         display: none;
     }
@@ -641,18 +577,6 @@ footer {
     h1 {
         font-size: 27px;
     }
-    /* .index-header {
-        margin-top: 0;
-    }
-    .member-header {
-        margin-top: 0;
-    }
-    .about-header {
-        margin-top: 0;
-    }
-    .contact-header {
-        margin-top: 0;
-    } */
     .optional {
         display: none;
     }
@@ -696,18 +620,6 @@ footer {
 }
 
 @media only screen and (max-width: 340px) and (orientation:landscape) {
-    /* .index-header {
-        margin-top: 0;
-    }
-    .member-header {
-        margin-top: 0;
-    }
-    .about-header {
-        margin-top: 0;
-    }
-    .contact-header { /* To fix responsive design issues with the header disappearing underneath the navbar 
-        margin-top: 50px;
-    } */
     footer { /* To fix responsive design issues of the footer taking up too much screen space */
         display: none;
     }
