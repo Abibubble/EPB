@@ -34,7 +34,7 @@ header {
     height: 100px;
 }
 
-/*Navbar*/
+/* --------------------------------------------------------------- Navbar */
 
 .navalert-container {
     position: absolute;
@@ -127,13 +127,15 @@ header {
     top: 0;
 }
 
-.marquee { /* For the scrolling alert bar */
+/* --------------------------------------------------------------- Scrolling alert bar */
+
+.marquee {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.alert { /* For the scrolling alert bar */
+.alert {
     background-color: #ffff00;
     color: #000;
     position: fixed;
@@ -161,7 +163,7 @@ header {
   z-index: 1;
 }
 
-@keyframes animate {  /* For the scrolling alert bar, thanks to the above link for this code */
+@keyframes animate {  /* Thanks to the above link for this code */
   100% {
     transform: translate(-100%, 0);
   }
@@ -171,7 +173,7 @@ header {
     z-index: 3;
 }
 
-/* Hero image and text overlay */
+/* --------------------------------------------------------------- Hero image and text overlay */
 
 .hero-container {
     height: 80vh;
@@ -231,7 +233,7 @@ header {
     width: 100%;
 }
 
-/* Page content */
+/* --------------------------------------------------------------- Page content */
 
 .info-container {
     padding-top: 75px;
@@ -309,7 +311,7 @@ iframe {
     height: 500px;
 }
 
-/* Footer */
+/* --------------------------------------------------------------- Footer */
 
 .content { /* Thanks to https://css-tricks.com/couple-takes-sticky-footer/ for this code */
   min-height: calc(100vh - 75px);
@@ -361,7 +363,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Responsive design */
+/* --------------------------------------------------------------- Responsive design */
 
 @media (min-width: 1050px) {
     .intro {
