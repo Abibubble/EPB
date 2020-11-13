@@ -99,6 +99,12 @@ header {
     width: 100%;
 }
 
+.col-12, .col-lg-6, col-3, col-md-6, col-md-4 {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .nav-col { /* To create border lines between nav items */
     border-right: solid 3px grey;
 }
@@ -579,7 +585,7 @@ footer {
         border-left: 0;
     }
     .hero-container {
-        height: 100vh;
+        height: 90vh;
     }
 }
 
