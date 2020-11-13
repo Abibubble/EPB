@@ -326,8 +326,7 @@ Friends, family members, members of staff and 13 customers were asked to review 
 
 ### Known Bugs
 * On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
-* On mobile, the page loads slightly zoomed in on Homepage, Membership, and How It Works.
-* On Samsung Galaxy A70, the screen respolution is the same as a laptop, so the responsivity doesn't work as well.
+* On Samsung Galaxy A70, the screen respolution is the same as a laptop, so the responsivity has a few minor spacing issues.
 
 
 ### Lighthouse
