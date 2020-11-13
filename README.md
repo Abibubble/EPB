@@ -318,6 +318,12 @@ Friends, family members, members of staff and 13 customers were asked to review 
     * I reached out to the Slack community, and Harry Dhillon suggested using a larger navbar-expand class.
     * I tested a few different sizes, and settled on xl, which covered all sizes of tablet and mobile, but didn't include desktop or laptop sizes.
 
+7. On mobile devices, you could scroll to the right and get a white bar down the side of the screen.
+    * I suspected it was due to a Bootstrap class adding padding that I wasn't expecting.
+    * On DevTools, I searched each Bootstrap class, and found that each col class had 15px padding-left and padding-right.
+    * I set a style rule to remove this, which fixed the issue.
+    * Finally, I checked to ensure that this hadn't caused any styling issues elsewhere, which it hadn't.
+
 ### Known Bugs
 * On mobile, the nav bar moves slightly behind the URL area upon scrolling down.
 * On mobile, the page loads slightly zoomed in on Homepage, Membership, and How It Works.
